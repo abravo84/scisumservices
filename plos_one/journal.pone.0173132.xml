@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0173132</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-32711</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Phthalates</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Taxonomy</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Data management</subject><subj-group><subject>Taxonomy</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Respiration</subject><subj-group><subject>Inhalation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Respiration</subject><subj-group><subject>Inhalation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical elements</subject><subj-group><subject>Lead (element)</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Urine</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Information retrieval</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Text mining for improved exposure assessment</article-title>
+<alt-title alt-title-type="running-head">Text mining for improved exposure assessment</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0398-0289</contrib-id>
+<name name-style="western">
+<surname>Larsson</surname>
+<given-names>Kristin</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Baker</surname>
+<given-names>Simon</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Silins</surname>
+<given-names>Ilona</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Guo</surname>
+<given-names>Yufan</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Stenius</surname>
+<given-names>Ulla</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Korhonen</surname>
+<given-names>Anna</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Berglund</surname>
+<given-names>Marika</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Computer Laboratory, University of Cambridge, Cambridge, United Kingdom</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Language Technology Lab, DTAL, University of Cambridge, Cambridge, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Groza</surname>
+<given-names>Tudor</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Garvan Institute of Medical Research, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"> <list-item><p><bold>Conceptualization:</bold> KL SB IS US AK MB.</p></list-item> <list-item><p><bold>Data curation:</bold> KL SB YG MB.</p></list-item> <list-item><p><bold>Formal analysis:</bold> KL SB YG.</p></list-item> <list-item><p><bold>Funding acquisition:</bold> AK MB SB.</p></list-item> <list-item><p><bold>Investigation:</bold> KL SB YG.</p></list-item> <list-item><p><bold>Methodology:</bold> KL SB IS YG US AK MB.</p></list-item> <list-item><p><bold>Project administration:</bold> KL SB.</p></list-item> <list-item><p><bold>Software:</bold> SB YG.</p></list-item> <list-item><p><bold>Supervision:</bold> KL SB IS US AK MB.</p></list-item> <list-item><p><bold>Validation:</bold> KL SB.</p></list-item> <list-item><p><bold>Visualization:</bold> KL SB.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> KL SB.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> KL SB IS YG US AK MB.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">kristin.larsson@ki.se</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>3</day>
+<month>3</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>3</issue>
+<elocation-id>e0173132</elocation-id>
+<history>
+<date date-type="received">
+<day>16</day>
+<month>8</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>15</day>
+<month>2</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Larsson et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0173132"/>
+<abstract>
+<p>Chemical exposure assessments are based on information collected via different methods, such as biomonitoring, personal monitoring, environmental monitoring and questionnaires. The vast amount of chemical-specific exposure information available from web-based databases, such as PubMed, is undoubtedly a great asset to the scientific community. However, manual retrieval of relevant published information is an extremely time consuming task and overviewing the data is nearly impossible. Here, we present the development of an automatic classifier for chemical exposure information. First, nearly 3700 abstracts were manually annotated by an expert in exposure sciences according to a taxonomy exclusively created for exposure information. Natural Language Processing (NLP) techniques were used to extract semantic and syntactic features relevant to chemical exposure text. Using these features, we trained a supervised machine learning algorithm to automatically classify PubMed abstracts according to the exposure taxonomy. The resulting classifier demonstrates good performance in the intrinsic evaluation. We also show that the classifier improves information retrieval of chemical exposure data compared to keyword-based PubMed searches. Case studies demonstrate that the classifier can be used to assist researchers by facilitating information retrieval and classification, enabling data gap recognition and overviewing available scientific literature using chemical-specific publication profiles. Finally, we identify challenges to be addressed in future development of the system.</p>
+</abstract>
+<funding-group>
+<funding-statement>S.B. received funding from Commonwealth Scholarship Commission (<ext-link ext-link-type="uri" xlink:href="http://cscuk.dfid.gov.uk/" xlink:type="simple">http://cscuk.dfid.gov.uk/</ext-link>), Cambridge Trust (<ext-link ext-link-type="uri" xlink:href="https://www.cambridgetrust.org/" xlink:type="simple">https://www.cambridgetrust.org/</ext-link>). A.K. received funding from Medical Research Council UK grant MR/M013049/1. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. K.L., I.S., Y.G., U.S. and M.B. received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="8"/>
+<page-count count="21"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The corpus of annotated PubMed abstracts and the software for classification are available on Figshare (DOI: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.6084/m9.figshare.4668229" xlink:type="simple">10.6084/m9.figshare.4668229</ext-link>).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>1. Introduction</title>
+<p>Humans are constantly exposed to a large number of chemicals present in food, water, air, dust, soil and consumer products via ingestion, inhalation and dermal absorption. Many of these chemicals have known or suspected toxic effects that can cause disorders and diseases at certain exposure levels. Aiming to estimate whether a population may be at risk at the current levels of exposure, risk assessments of chemicals are performed (<xref ref-type="fig" rid="pone.0173132.g001">Fig 1</xref>). One cornerstone in the risk assessment process is the exposure assessment in which the magnitude, frequency and duration of exposure are estimated or measured (WHO/IPCS 2004).</p>
+<fig id="pone.0173132.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Chemical risk assessment.</title>
+<p>The process of a chemical risk assessment includes exposure assessment, hazard identification, hazard characterization and risk characterization [<xref ref-type="bibr" rid="pone.0173132.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0173132.ref002">2</xref>].</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g001" xlink:type="simple"/>
+</fig>
+<p>Exposure assessment methods include both indirect methods, such as exposure modeling and exposure calculations based on environmental measurements and questionnaire data, and direct measurements, such as human biomonitoring (HBM) and personal monitoring. HBM is the measurement of exposure biomarkers (chemicals or chemical metabolites) and effect biomarkers (indicators of effects caused by chemical exposure) in human body tissues or fluids, such as blood, hair and urine [<xref ref-type="bibr" rid="pone.0173132.ref003">3</xref>].</p>
+<p>To assess the total exposure to a chemical and evaluate the importance of different exposure routes, all available data should be considered. In recent years, published biomedical literature available from web-based databases (such as PubMed) has grown with double-exponential rate [<xref ref-type="bibr" rid="pone.0173132.ref004">4</xref>]. Thus, manual collection of relevant published exposure information on one or several chemicals is an extremely time consuming task. Furthermore, due to the broad variety of methods used for exposure estimations and the large amount of studied exposure routes and sources, manual searches in commonly used search engines e.g. Google Scholar (<ext-link ext-link-type="uri" xlink:href="http://scholar.google.com/" xlink:type="simple">http://scholar.google.com</ext-link>) or PubMed (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/PubMed" xlink:type="simple">http://www.ncbi.nlm.nih.gov/PubMed</ext-link>) require a large number of search terms, and still articles will be missed due to unsuitable or lack of search terms.</p>
+<p>Text mining (TM) is the process of acquiring refined information by analyzing correlations and statistical patterns in unstructured text. Over recent years, TM techniques have enabled large-scale information extraction and knowledge discovery [<xref ref-type="bibr" rid="pone.0173132.ref005">5</xref>], and have been successfully applied in real life tasks. For example, TM techniques have been applied in cancer research [<xref ref-type="bibr" rid="pone.0173132.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0173132.ref007">7</xref>] and cancer chemical risk assessment [<xref ref-type="bibr" rid="pone.0173132.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0173132.ref009">9</xref>], toxicogenomics [<xref ref-type="bibr" rid="pone.0173132.ref010">10</xref>], and drug effects/safety [<xref ref-type="bibr" rid="pone.0173132.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0173132.ref012">12</xref>].</p>
+<p>In this paper, we describe the first steps towards developing a semantic text classifier for text mining human exposure information. A classifier for exposure data can be used to rapidly retrieve and categorize exposure data, map chemical-specific exposure information, identify research gaps and create new research ideas. We apply proven Natural Language Processing methodology and evaluate the performance using both intrinsic evaluation and case studies.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>2. Methods</title>
+<sec id="sec003">
+<title>2.1. The exposure information corpus</title>
+<sec id="sec004">
+<title>2.1.1. Taxonomy</title>
+<p>An exposure taxonomy was developed by experts in biomonitoring and exposure sciences to categorize data into relevant classes. The taxonomy only regards human exposure data, thus animal and <italic>in vitro</italic> data are not included. The taxonomy includes a total of 32 nodes divided under two main branches of exposure information; <italic>biomonitoring</italic> and <italic>exposure routes</italic>. The first main branch categorises for <italic>biomonitoring</italic> data and is further divided into <italic>exposure biomarkers</italic> (i.e. chemicals or chemical metabolites measured in human tissues to assess exposure) and <italic>effect biomarkers</italic> (i.e. markers of effects caused by chemical exposures). The <italic>exposure biomarker</italic> branch is further structured based on the biological matrix (e.g. <italic>blood</italic>, <italic>urine</italic>, <italic>hair/nail</italic>) in which the biomarker has been measured. The <italic>effect biomarker</italic> branch is further structured based on the character of the marker (i.e. <italic>molecule</italic>, <italic>gene</italic>, <italic>oxidative stress marker</italic>, <italic>other effect biomarker and physiological parameter</italic>).</p>
+<p>The second main branch contains data about the studied <italic>exposure routes</italic>, i.e. <italic>oral intake</italic>, <italic>inhalation</italic>, <italic>dermal exposure</italic> and <italic>combined</italic> exposure routes. These nodes are further structured into specific types of studied exposure. The information in the exposure routes branch includes e.g. mathematical models of exposure (dietary intake assessments, physiologically based pharmacokinetic (PBPK) modeling, etc.) and information obtained via questionnaires (consumption frequency of certain foods, use of consumer products, etc.). If chemicals were measured in an exposure media (e.g. food or water) without any exposure estimate on individual or population level, the abstract was regarded as irrelevant. However, if chemicals were measured in indoor air or dust in homes or workplaces without exposure estimates, the information was still considered relevant because the exposure levels regard an indoor environment specific for a group of residents or workers. See <xref ref-type="table" rid="pone.0173132.t001">Table 1</xref> for examples of information considered relevant for different nodes.</p>
+<table-wrap id="pone.0173132.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t001</object-id>
+<label>Table 1</label> <caption><title>Examples of information considered relevant for different nodes in the exposure taxonomy.</title></caption>
+<alternatives>
+<graphic id="pone.0173132.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="3">Node</th>
+<th align="justify">Relevant information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="4" style="background-color:#D9D9D9"><bold>BIOMONITORING</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Exposure biomarker</bold></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Blood</italic>, <italic>urine</italic>, <italic>hair/nail</italic>, <italic>adipose tissue</italic>, <italic>mother’s milk</italic>, <italic>placenta</italic>, <italic>other tissue</italic></td>
+<td align="left">Measurements of exposure biomarkers (chemicals or metabolites) in corresponding human matrix (blood, urine, etc).</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Effect biomarker</bold></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" rowspan="2"/>
+<td align="left"><italic>- Gene</italic>, <italic>molecule</italic>, <italic>oxidative stress marker</italic>, <italic>other effect biomarker</italic></td>
+<td align="left">Measurements of effect biomarkers in human matrices.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><italic>- Physiological parameter</italic></td>
+<td align="left">Measurements of physiological markers of effect, such as blood pressure, lung function, birth weight, etc.</td>
+</tr>
+<tr>
+<td align="left" colspan="4" style="background-color:#D9D9D9"><bold>EXPOSURE ROUTES</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Combined</bold></td>
+<td align="left">Intake calculations derived from biomonitoring data. Exposure modelling (e.g. PBPK) of multiple exposure routes simultaneously. Job exposure matrix.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Dermal exposure</bold></td>
+<td align="left">Tape strip samples, hand wipes, hand washing samples, dermal wipes, dermal exposure modelling.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Inhalation</bold></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Outdoor air</italic></td>
+<td align="left">Data from ambient air monitoring stations used in exposure assessments or epidemiological studies.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Indoor air</italic></td>
+<td align="left">Air in indoor microenvironments (homes, workplaces, schools, cars, etc). Environmental tobacco smoke. Inhalation from showers, cooking fuel, etc.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Personal air</italic></td>
+<td align="left">Personal air monitoring, breathing zone measurements.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="2"><bold>Oral intake</bold></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Drinking water</italic></td>
+<td align="left">Exposure estimates from drinking water, bottled water, well water, etc.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Dust</italic></td>
+<td align="left">Dust in indoor microenvironments (homes, workplaces, schools, cars, etc).</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Food</italic></td>
+<td align="left">Exposure estimates from food (e.g. intake assessments based on food concentration data and ingested amount of food, total diet studies, double portions, etc).</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Products</italic></td>
+<td align="left">Exposure estimates from toys, cosmetics, personal care products, dental fillings, drugs and vaccines, household pesticides, etc.</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>- Soil</italic></td>
+<td align="left">Exposure estimates from playground soil or residential garden soil, etc.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec005">
+<title>2.1.2. Literature retrieval and annotated corpus</title>
+<p>The development of the classifier requires a training data set consisting of a selection (i.e. corpus) of PubMed abstracts manually annotated according to the exposure taxonomy. The selection of the annotated text material included abstracts in scientific journals representing a variety of research fields, and published over a long time period. Seventeen well studied compounds or groups of compounds representing different exposure routes and sources were selected for the first annotation round. These compounds were bisphenol A, phthalates, polychlorinated biphenyls (PCB), polybrominated diphenyl ethers (PBDE), perfluorooctanesulfonic acid (PFOS), chlordane, cadmium, arsenic, mercury, acrylamide, triclosan, naphthalene, benzene, styrene, toluene, particulate matter 2.5 and chlorpyrifos.</p>
+<p>First, abstracts published between 1993 and 2013 were selected using a search term including the 17 chemicals mentioned above and 24 journals within in the fields of epidemiology, toxicology, exposure and environmental sciences. Because the exposure taxonomy only concerns human exposure data and not <italic>in vitro</italic> and animal studies, only abstracts indexed with the Medical Subject Heading (MeSH) “humans” in PubMed were included in the annotated corpus. The search generated 5014 abstracts that were reviewed by an expert in exposure sciences and classified according to the taxonomy. The abstracts were only annotated if considered relevant for the taxonomy and consequently 2098 abstracts were annotated.</p>
+<p>After the initial broad search and annotations, several sub-nodes contained an insufficient number of annotated abstracts. Thus, additional searches using targeted keywords were performed. Some of these additional search strings included other journals and chemicals than the ones used the initial searches. The targeted searches generated 2748 abstracts, out of which 1588 abstracts were relevant and annotated.</p>
+<p>In total, the annotated text corpus included 3686 annotated abstracts. In addition, 4076 abstracts were reviewed but considered irrelevant and were not annotated. <xref ref-type="table" rid="pone.0173132.t002">Table 2</xref> shows the number of annotated abstracts for each node in the taxonomy.</p>
+<table-wrap id="pone.0173132.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t002</object-id>
+<label>Table 2</label> <caption><title>Number of annotated abstracts for each node in the taxonomy.</title></caption>
+<alternatives>
+<graphic id="pone.0173132.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="5">Node</th>
+<th align="center"># abstracts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="5"><bold>BIOMONITORING</bold></td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Exposure biomarker</bold></td>
+<td align="center">106</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Adipose tissue</td>
+<td align="center">88</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Blood</td>
+<td align="center">744</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Hair/nail</td>
+<td align="center">418</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Mother’s milk</td>
+<td align="center">177</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Other tissue</td>
+<td align="center">143</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Placenta</td>
+<td align="center">60</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Urine</td>
+<td align="center">784</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Effect biomarker</bold></td>
+<td align="center">78</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Biomarker</td>
+<td align="center">27</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Gene</italic></td>
+<td align="center">141</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Molecule</italic></td>
+<td align="center">52</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Lipid</italic></td>
+<td align="center">94</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Other molecule</italic></td>
+<td align="center">168</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Protein</italic></td>
+<td align="center">300</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Other effect biomarker</italic></td>
+<td align="center">65</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Oxidative stress marker</italic></td>
+<td align="center">62</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Physiological parameter</td>
+<td align="center">777</td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold>EXPOSURE ROUTES</bold></td>
+<td align="center">168</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Combined</bold></td>
+<td align="center">165</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Dermal exposure</bold></td>
+<td align="center">153</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Inhalation</bold></td>
+<td align="center">356</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Outdoor air</td>
+<td align="center">247</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Indoor air</td>
+<td align="center">254</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Personal air</td>
+<td align="center">174</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Oral intake</bold></td>
+<td align="center">63</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Drinking water</td>
+<td align="center">424</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Dust</td>
+<td align="center">256</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Food</td>
+<td align="center">647</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Products</td>
+<td align="center">164</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Soil</td>
+<td align="center">131</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The annotation was conducted by an expert with 5 years of experience in exposure assessment. The XUL-based annotation tool described in Guo et al., 2012 [<xref ref-type="bibr" rid="pone.0173132.ref013">13</xref>] was used with its menu items customized to our exposure information classification task. To investigate the accuracy of annotations, we performed inter-annotator agreement analysis where a second expert annotator was asked to annotate a subset of 200 abstracts. The annotation was compared against that of the annotator who annotated the whole corpus. Near excellent agreement was found between the two annotators with the average Cohen’s Kappa of 0.79 across the whole taxonomy.</p>
+</sec>
+</sec>
+<sec id="sec006">
+<title>2.2. Natural language processing</title>
+<p>In this section, we describe our Natural Language Processing (NLP) methodology used in the automatic classification. We applied proven NLP techniques and tools that have achieved state of the art results when trained with biomedical domain data. <xref ref-type="fig" rid="pone.0173132.g002">Fig 2</xref> illustrates our handcrafted NLP pipeline.</p>
+<fig id="pone.0173132.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>The NLP pipeline for automatic classification of document abstracts.</title>
+<p>Chem: Chemical lists, MeSH: Medical Subject Headings, GR: Grammatical Relations, LBOW: Lemmatized Bag of Words, N.Bigrams: Noun Bigrams, VC: Verb Clusters, NE: Named Entities.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g002" xlink:type="simple"/>
+</fig>
+<p>The workflow of the NLP methodology is described below:</p>
+<p><bold>1. Data Cleaning:</bold> We first pre-process data retrieved from PubMed by extracting text appearing in the abstract, automatically cleaning the text from possible encoding errors.</p>
+<p><bold>2. Tokenization:</bold> We segment the text by words and then by sentences. We use BioTokenizer [<xref ref-type="bibr" rid="pone.0173132.ref014">14</xref>] to tokenize words and then Natural Language Tool Kit (NLTK) [<xref ref-type="bibr" rid="pone.0173132.ref015">15</xref>] for sentences. BioTokenizer achieves 96% Mean Average Precision, and is considered state of the art [<xref ref-type="bibr" rid="pone.0173132.ref014">14</xref>].</p>
+<p><bold>3. Metadata Extraction:</bold> Documents from PubMed are often accompanied with metadata that capture additional descriptive categorization information about the document. We extract two types of information: (i) the Medical Subject Headings (<bold>MeSH</bold>) that are used to tag biomedical documents with subject categories which are assigned by professional annotators [<xref ref-type="bibr" rid="pone.0173132.ref016">16</xref>], and (ii) a list of chemicals (<bold>Chem</bold>) that are referred to in the article.</p>
+<p><bold>4. POS Tagging:</bold> Part of Speech (POS) tagging is the process of labelling each word in the text with a lexical category label, such as <italic>“noun”</italic>, <italic>“verb”</italic>, and <italic>“adjective”</italic>. These labels are needed in subsequent stages in the pipeline. We use the C&amp;C tagger [<xref ref-type="bibr" rid="pone.0173132.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0173132.ref018">18</xref>] which uses the Penn Treebank grammatical categories, and is trained on biomedical texts [<xref ref-type="bibr" rid="pone.0173132.ref019">19</xref>].</p>
+<p><bold>5. Named Entity Recognition:</bold> We identify and extract named entities that are typically discussed in the biomedical literature. We extract five named entity types that are common in biomedical text: DNA, RNA, proteins, cell line and type. We store in the feature a pair of the entity type and the associated words or phrases. We use the Named Entity Recognition (NER) tool ABNER [<xref ref-type="bibr" rid="pone.0173132.ref020">20</xref>], which is trained on the NLPBA and BioCreative corpora and achieves an F-score accuracy of 70.5% and 69.9% on these two corpora respectively [<xref ref-type="bibr" rid="pone.0173132.ref021">21</xref>]. By the end of this step, we extract Named Entities (<bold>NE</bold>) feature type.</p>
+<p><bold>6. Dependency Parsing:</bold> In this stage, we extract syntactic structures (trees) that encode grammatical dependency relations between words in the sentence. For example: direct object, non-clausal subject, and indirect object relations in parsed data taking into account their head and dependent words. We use the C&amp;C parser to extract these grammatical relations. We trained the C&amp;C Parser using available annotated biomedical annotated corpus [<xref ref-type="bibr" rid="pone.0173132.ref019">19</xref>]. We stored each arc in the tree (for all sentences in the given abstract) in a list. This list was used to generate the lexicalized GR features, which were essentially template “pattern” that we used to match during the feature encoding process. For example, a generated pattern could be (“subject &lt;x&gt;”, “affects”, “hemoglobin”) for a simple nsubj relationship. If an abstract has this pattern, 1 is assigned for the corresponding index for this feature.</p>
+<p><bold>7. Lemmatization:</bold> The goal of this stage of the pipeline is to produce Lemmatized Bag of Words <bold>(LBOW)</bold> features. Bag of words capture whether a word appears or not in a given abstract against all of the words that appear in the corpus. We lemmatize (stem) the text in order to reduce sparsity of the words occurring. We use the BioLemmatizer, which is trained on biomedical texts [<xref ref-type="bibr" rid="pone.0173132.ref022">22</xref>].</p>
+<p><bold>8. N-gram Extraction:</bold> We extract noun compound bigrams such as <italic>“blood sample”</italic>, or <italic>“breast milk”</italic>, as they can represent a concept in the text. We do not lemmatize the bigrams, as that could result in losing concept information, for example <italic>“drinking water”</italic>.</p>
+<p><bold>9. Verb class Clustering:</bold> We group semantically similar verb predicates together for example, verbs like <italic>“stimulate”</italic> and <italic>“activate”</italic> would be clustered together, compared to verbs like <italic>“halt” and “slow”</italic>. This allows us to generalize away from individual verbs and reduce data sparsity. We used the hierarchical classification of 399 verbs used in biomedicine by Sun and Korhonen [<xref ref-type="bibr" rid="pone.0173132.ref023">23</xref>]. We use three levels of abstraction by allocating 3 bits in our feature representation for each concrete class (1 bit for each level of the abstraction hierarchy). By the end of this stage, we extract the verb clusters (<bold>VC</bold>) feature type.</p>
+<p><bold>10. Feature Selection:</bold> Features that are too rare or too common in the annotated corpus are removed, so that only the most discriminating features are used by the classifiers. The thresholds are set for each node by a process of trial and error, typically a minimum threshold value of 5 occurrences are selected, while the maximum threshold varies greatly depending on the feature type; usually a value larger than 100. This improves both accuracy and reduces training time. This procedure is applied separately for each node in the taxonomy. Therefore, each classifier has a unique set of selected features. <xref ref-type="table" rid="pone.0173132.t003">Table 3</xref> details the number of features for each node after feature selection step. An additional feature ablation analysis (leaving one type of features out) allows a better understanding of which features are most informative for exposure information classification, as reported section 3.1.1.</p>
+<table-wrap id="pone.0173132.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t003</object-id>
+<label>Table 3</label> <caption><title>Feature selection.</title> <p>The number of features for each node in the taxonomy after the feature selection step.</p></caption>
+<alternatives>
+<graphic id="pone.0173132.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="5">Node</th>
+<th align="center">LBOW</th>
+<th align="center">GR</th>
+<th align="center">NE</th>
+<th align="center">VC</th>
+<th align="center">N Bigram</th>
+<th align="center">MeSH</th>
+<th align="center">Chem</th>
+<th align="center">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="5"><bold>BIOMONITORING</bold></td>
+<td align="center">4785</td>
+<td align="center">3544</td>
+<td align="center">352</td>
+<td align="center">128</td>
+<td align="center">1395</td>
+<td align="center">754</td>
+<td align="center">253</td>
+<td align="center"><bold>11211</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Exposure biomarker </bold></td>
+<td align="center">4244</td>
+<td align="center">2965</td>
+<td align="center">312</td>
+<td align="center">127</td>
+<td align="center">1177</td>
+<td align="center">626</td>
+<td align="center">216</td>
+<td align="center"><bold>9667</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Adipose tissue</td>
+<td align="center">361</td>
+<td align="center">66</td>
+<td align="center">23</td>
+<td align="center">67</td>
+<td align="center">38</td>
+<td align="center">56</td>
+<td align="center">19</td>
+<td align="center"><bold>630</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Blood</td>
+<td align="center">2453</td>
+<td align="center">1300</td>
+<td align="center">141</td>
+<td align="center">122</td>
+<td align="center">521</td>
+<td align="center">355</td>
+<td align="center">111</td>
+<td align="center"><bold>5003</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Hair/nail</td>
+<td align="center">1390</td>
+<td align="center">532</td>
+<td align="center">47</td>
+<td align="center">109</td>
+<td align="center">266</td>
+<td align="center">186</td>
+<td align="center">34</td>
+<td align="center"><bold>2564</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Mother’s milk</td>
+<td align="center">668</td>
+<td align="center">197</td>
+<td align="center">43</td>
+<td align="center">91</td>
+<td align="center">85</td>
+<td align="center">86</td>
+<td align="center">35</td>
+<td align="center"><bold>1205</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Other tissue </td>
+<td align="center">612</td>
+<td align="center">106</td>
+<td align="center">14</td>
+<td align="center">92</td>
+<td align="center">66</td>
+<td align="center">82</td>
+<td align="center">21</td>
+<td align="center"><bold>993</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Placenta</td>
+<td align="center">307</td>
+<td align="center">52</td>
+<td align="center">13</td>
+<td align="center">80</td>
+<td align="center">32</td>
+<td align="center">37</td>
+<td align="center">13</td>
+<td align="center"><bold>534</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Urine</td>
+<td align="center">2310</td>
+<td align="center">1164</td>
+<td align="center">124</td>
+<td align="center">120</td>
+<td align="center">482</td>
+<td align="center">314</td>
+<td align="center">120</td>
+<td align="center"><bold>4634</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Effect biomarker</bold></td>
+<td align="center">2889</td>
+<td align="center">1678</td>
+<td align="center">190</td>
+<td align="center">122</td>
+<td align="center">715</td>
+<td align="center">508</td>
+<td align="center">164</td>
+<td align="center"><bold>6266</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Biomarker</td>
+<td align="center">1743</td>
+<td align="center">733</td>
+<td align="center">146</td>
+<td align="center">116</td>
+<td align="center">363</td>
+<td align="center">313</td>
+<td align="center">129</td>
+<td align="center"><bold>3543</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Gene</italic></td>
+<td align="center">637</td>
+<td align="center">141</td>
+<td align="center">39</td>
+<td align="center">96</td>
+<td align="center">79</td>
+<td align="center">96</td>
+<td align="center">25</td>
+<td align="center"><bold>1113</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Molecule</italic></td>
+<td align="center">1461</td>
+<td align="center">555</td>
+<td align="center">121</td>
+<td align="center">115</td>
+<td align="center">271</td>
+<td align="center">248</td>
+<td align="center">103</td>
+<td align="center"><bold>2874</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Lipid</italic></td>
+<td align="center">447</td>
+<td align="center">84</td>
+<td align="center">19</td>
+<td align="center">88</td>
+<td align="center">54</td>
+<td align="center">69</td>
+<td align="center">30</td>
+<td align="center"><bold>791</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Other molecule</italic></td>
+<td align="center">724</td>
+<td align="center">181</td>
+<td align="center">37</td>
+<td align="center">97</td>
+<td align="center">99</td>
+<td align="center">106</td>
+<td align="center">40</td>
+<td align="center"><bold>1284</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Protein</italic></td>
+<td align="center">1167</td>
+<td align="center">352</td>
+<td align="center">99</td>
+<td align="center">112</td>
+<td align="center">200</td>
+<td align="center">179</td>
+<td align="center">74</td>
+<td align="center"><bold>2183</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Other effect biomarker </italic></td>
+<td align="center">357</td>
+<td align="center">44</td>
+<td align="center">16</td>
+<td align="center">73</td>
+<td align="center">35</td>
+<td align="center">38</td>
+<td align="center">11</td>
+<td align="center"><bold>574</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Oxidative stress marker</italic></td>
+<td align="center">316</td>
+<td align="center">48</td>
+<td align="center">16</td>
+<td align="center">80</td>
+<td align="center">30</td>
+<td align="center">39</td>
+<td align="center">14</td>
+<td align="center"><bold>543</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Physiological parameter</td>
+<td align="center">2100</td>
+<td align="center">1018</td>
+<td align="center">78</td>
+<td align="center">121</td>
+<td align="center">434</td>
+<td align="center">347</td>
+<td align="center">77</td>
+<td align="center"><bold>4175</bold></td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold>EXPOSURE ROUTES</bold></td>
+<td align="center">4574</td>
+<td align="center">3356</td>
+<td align="center">248</td>
+<td align="center">130</td>
+<td align="center">1297</td>
+<td align="center">694</td>
+<td align="center">211</td>
+<td align="center"><bold>10510</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Combined</bold></td>
+<td align="center">715</td>
+<td align="center">156</td>
+<td align="center">18</td>
+<td align="center">98</td>
+<td align="center">91</td>
+<td align="center">98</td>
+<td align="center">31</td>
+<td align="center"><bold>1207</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Dermal exposure</bold></td>
+<td align="center">773</td>
+<td align="center">142</td>
+<td align="center">15</td>
+<td align="center">99</td>
+<td align="center">94</td>
+<td align="center">79</td>
+<td align="center">29</td>
+<td align="center"><bold>1231</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Inhalation</bold></td>
+<td align="center">2607</td>
+<td align="center">1349</td>
+<td align="center">89</td>
+<td align="center">123</td>
+<td align="center">525</td>
+<td align="center">379</td>
+<td align="center">111</td>
+<td align="center"><bold>5183</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Outdoor air</td>
+<td align="center">1064</td>
+<td align="center">407</td>
+<td align="center">30</td>
+<td align="center">109</td>
+<td align="center">159</td>
+<td align="center">136</td>
+<td align="center">14</td>
+<td align="center"><bold>1919</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Indoor air</td>
+<td align="center">1308</td>
+<td align="center">369</td>
+<td align="center">35</td>
+<td align="center">107</td>
+<td align="center">191</td>
+<td align="center">178</td>
+<td align="center">58</td>
+<td align="center"><bold>2246</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Personal air</td>
+<td align="center">974</td>
+<td align="center">221</td>
+<td align="center">25</td>
+<td align="center">99</td>
+<td align="center">124</td>
+<td align="center">104</td>
+<td align="center">32</td>
+<td align="center"><bold>1579</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Oral intake</bold></td>
+<td align="center">3216</td>
+<td align="center">2067</td>
+<td align="center">171</td>
+<td align="center">126</td>
+<td align="center">830</td>
+<td align="center">461</td>
+<td align="center">127</td>
+<td align="center"><bold>6998</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Drinking water</td>
+<td align="center">1338</td>
+<td align="center">501</td>
+<td align="center">44</td>
+<td align="center">117</td>
+<td align="center">250</td>
+<td align="center">191</td>
+<td align="center">45</td>
+<td align="center"><bold>2486</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Dust</td>
+<td align="center">1057</td>
+<td align="center">293</td>
+<td align="center">43</td>
+<td align="center">97</td>
+<td align="center">163</td>
+<td align="center">145</td>
+<td align="center">53</td>
+<td align="center"><bold>1851</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Food</td>
+<td align="center">1932</td>
+<td align="center">997</td>
+<td align="center">87</td>
+<td align="center">117</td>
+<td align="center">411</td>
+<td align="center">270</td>
+<td align="center">78</td>
+<td align="center"><bold>3892</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Products</td>
+<td align="center">803</td>
+<td align="center">193</td>
+<td align="center">18</td>
+<td align="center">97</td>
+<td align="center">117</td>
+<td align="center">99</td>
+<td align="center">29</td>
+<td align="center"><bold>1356</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Soil</td>
+<td align="center">652</td>
+<td align="center">124</td>
+<td align="center">5</td>
+<td align="center">84</td>
+<td align="center">86</td>
+<td align="center">80</td>
+<td align="center">24</td>
+<td align="center"><bold>1055</bold></td>
+</tr>
+<tr>
+<td align="right" colspan="5"><bold>Average:</bold></td>
+<td align="center" style="border-top:thick">1328</td>
+<td align="center" style="border-top:thick">624</td>
+<td align="center" style="border-top:thick">67</td>
+<td align="center" style="border-top:thick">100</td>
+<td align="center" style="border-top:thick">271</td>
+<td align="center" style="border-top:thick">193</td>
+<td align="center" style="border-top:thick">61</td>
+<td align="center" style="border-top:thick"><bold>2645</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>LBOW: Lemmatized Bag of Words, GR: Grammatical Relations, NE: Named Entities, VC: Verb Clusters, N.Bigrams: Noun Bigrams, MeSH: Medical Subject Headings, Chem: Chemical lists.</p></fn>
+<fn id="t003fn002"><p>The corpus of annotated PubMed abstracts and the software for classification are available at: <ext-link ext-link-type="uri" xlink:href="https://figshare.com/articles/Corpus_and_Software/4668229" xlink:type="simple">https://figshare.com/articles/Corpus_and_Software/4668229</ext-link></p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p><bold>11. Feature Encoding:</bold> The features are represented in a sparse binary format, with a value of 1 indicating that the given abstract contains this feature. The feature itself can be as simple as a bag of words, or as complex as carefully engineered grammatical relations (if there’s a certain dependency between specific word pairs), verb clusters (if there’s a verb instance belonging to a given verb class), NER (if there’s a specific word tagged with a specific named entity), etc.</p>
+<p><bold>12. Classifier</bold>: The binary features are then put into 32 classifiers (support vector machines with radial basis function kernels) that label each abstract with a binary label indicating its relevance for one of the 32 nodes in the taxonomy. Each of the classifiers are trained and executed independently in order to have mutually non-exclusive multi-label classification.</p>
+<p>Each of the classifiers is trained with entire corpus data (unless we are evaluating the performance of the classifiers, where cross-validation is used). Abstracts that contain sentences annotated with its associated label, are counted as a positive example for the training, otherwise, it would be a negative example. We use the hypernym/hyponymy relationships in our taxonomy to determine whether an example should be labelled positively or negatively for a given node, i.e., we count sub-nodes labels as positive examples when we are classifying abstracts under their parent node.</p>
+</sec>
+<sec id="sec007">
+<title>2.3. Evaluation methodology</title>
+<p>We evaluate the performance of our NLP methodology using an intrinsic evaluation (evaluating the NLP system’s performance with respect to our annotated data, i.e. gold data).</p>
+<p>We use standard cross-validation setup, where the annotated gold dataset is split into four folds, the classifiers are trained on three of four folds and the system is tested on the remaining fold. We rotate the split until the entire annotated gold dataset is covered. We also apply another level of five-fold cross-validation for kernel hyper parameter tuning within the training split. The following standard measurements are used to ascertain the performance accuracy of our system:
+<disp-formula id="pone.0173132.e001">
+<alternatives>
+<graphic id="pone.0173132.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0173132.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mi mathvariant="normal">p</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac>
+</mml:math>
+</alternatives>
+</disp-formula>
+<disp-formula id="pone.0173132.e002">
+<alternatives>
+<graphic id="pone.0173132.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0173132.e002" xlink:type="simple"/>
+<mml:math display="block" id="M2">
+<mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">l</mml:mi><mml:mi mathvariant="normal">l</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>g</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac>
+</mml:math>
+</alternatives>
+</disp-formula>
+<disp-formula id="pone.0173132.e003">
+<alternatives>
+<graphic id="pone.0173132.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0173132.e003" xlink:type="simple"/>
+<mml:math display="block" id="M3">
+<mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">u</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">y</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>g</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:mfrac>
+</mml:math>
+</alternatives>
+</disp-formula>
+<disp-formula id="pone.0173132.e004">
+<alternatives>
+<graphic id="pone.0173132.e004g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0173132.e004" xlink:type="simple"/>
+<mml:math display="block" id="M4">
+<mml:mi mathvariant="normal">F</mml:mi><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mfrac><mml:mrow><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mo>×</mml:mo><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mo>+</mml:mo><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:mfrac>
+</mml:math>
+</alternatives>
+</disp-formula></p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>3. Results</title>
+<sec id="sec009">
+<title>3.1. Intrinsic evaluation</title>
+<p><xref ref-type="table" rid="pone.0173132.t004">Table 4</xref> shows the results of the intrinsic evaluation using 3-fold cross validation.</p>
+<table-wrap id="pone.0173132.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t004</object-id>
+<label>Table 4</label> <caption><title>Results of intrinsic evaluation using 3-fold cross validation.</title> <p>All scores are percentages.</p></caption>
+<alternatives>
+<graphic id="pone.0173132.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="5">Node</th>
+<th align="center">Precision</th>
+<th align="center">Recall</th>
+<th align="center">Accuracy</th>
+<th align="center">F-score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="5"><bold><italic>BIOMONITORING</italic></bold></td>
+<td align="center" style="background-color:#FFFFFF">94.9</td>
+<td align="center" style="background-color:#FFFFFF">95.5</td>
+<td align="center" style="background-color:#FFFFFF">93.1</td>
+<td align="center" style="background-color:#FFFFFF">95.2</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Exposure biomarker</bold></td>
+<td align="center" style="background-color:#FFFFFF">93.8</td>
+<td align="center" style="background-color:#FFFFFF">95.0</td>
+<td align="center" style="background-color:#FFFFFF">93.2</td>
+<td align="center" style="background-color:#FFFFFF">94.4</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Adipose tissue</td>
+<td align="center" style="background-color:#FFFFFF">93.9</td>
+<td align="center" style="background-color:#FFFFFF">87.5</td>
+<td align="center" style="background-color:#FFFFFF">99.6</td>
+<td align="center" style="background-color:#FFFFFF">90.6</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Blood</td>
+<td align="center" style="background-color:#FFFFFF">87.2</td>
+<td align="center" style="background-color:#FFFFFF">82.4</td>
+<td align="center" style="background-color:#FFFFFF">92.1</td>
+<td align="center" style="background-color:#FFFFFF">84.7</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Hair/nail</td>
+<td align="center" style="background-color:#FFFFFF">97.7</td>
+<td align="center" style="background-color:#FFFFFF">89.9</td>
+<td align="center" style="background-color:#FFFFFF">98.4</td>
+<td align="center" style="background-color:#FFFFFF">93.6</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Mother’s milk</td>
+<td align="center" style="background-color:#FFFFFF">91.6</td>
+<td align="center" style="background-color:#FFFFFF">86.4</td>
+<td align="center" style="background-color:#FFFFFF">99.0</td>
+<td align="center" style="background-color:#FFFFFF">89.0</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Other tissue</td>
+<td align="center" style="background-color:#FFFFFF">86.0</td>
+<td align="center" style="background-color:#FFFFFF">25.9</td>
+<td align="center" style="background-color:#FFFFFF">96.9</td>
+<td align="center" style="background-color:#FFFFFF">39.8</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Placenta</td>
+<td align="center" style="background-color:#FFFFFF">93.3</td>
+<td align="center" style="background-color:#FFFFFF">70.0</td>
+<td align="center" style="background-color:#FFFFFF">99.4</td>
+<td align="center" style="background-color:#FFFFFF">80.0</td>
+</tr>
+<tr>
+<td align="left" colspan="2"/>
+<td align="left" colspan="3">Urine</td>
+<td align="center" style="background-color:#FFFFFF">95.7</td>
+<td align="center" style="background-color:#FFFFFF">91.9</td>
+<td align="center" style="background-color:#FFFFFF">97.1</td>
+<td align="center" style="background-color:#FFFFFF">93.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Effect biomarker</bold></td>
+<td align="center" style="background-color:#FFFFFF">89.0</td>
+<td align="center" style="background-color:#FFFFFF">81.8</td>
+<td align="center" style="background-color:#FFFFFF">90.7</td>
+<td align="center" style="background-color:#FFFFFF">85.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Biomarker</td>
+<td align="center" style="background-color:#FFFFFF">89.4</td>
+<td align="center" style="background-color:#FFFFFF">69.2</td>
+<td align="center" style="background-color:#FFFFFF">94.2</td>
+<td align="center" style="background-color:#FFFFFF">78.0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="2" style="background-color:#FFFFFF"><italic>Gene</italic></td>
+<td align="center" style="background-color:#FFFFFF">92.6</td>
+<td align="center" style="background-color:#FFFFFF">61.7</td>
+<td align="center" style="background-color:#FFFFFF">98.3</td>
+<td align="center" style="background-color:#FFFFFF">74.0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="2" style="background-color:#FFFFFF"><italic>Molecule</italic></td>
+<td align="center" style="background-color:#FFFFFF">85.4</td>
+<td align="center" style="background-color:#FFFFFF">63.1</td>
+<td align="center" style="background-color:#FFFFFF">94.5</td>
+<td align="center" style="background-color:#FFFFFF">72.6</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"><italic>Lipid</italic></td>
+<td align="center" style="background-color:#FFFFFF">87.5</td>
+<td align="center" style="background-color:#FFFFFF">37.2</td>
+<td align="center" style="background-color:#FFFFFF">98.3</td>
+<td align="center" style="background-color:#FFFFFF">52.2</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"><italic>Other molecule</italic></td>
+<td align="center" style="background-color:#FFFFFF">80.0</td>
+<td align="center" style="background-color:#FFFFFF">42.9</td>
+<td align="center" style="background-color:#FFFFFF">96.9</td>
+<td align="center" style="background-color:#FFFFFF">55.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"><italic>Protein</italic></td>
+<td align="center" style="background-color:#FFFFFF">84.8</td>
+<td align="center" style="background-color:#FFFFFF">56.0</td>
+<td align="center" style="background-color:#FFFFFF">95.6</td>
+<td align="center" style="background-color:#FFFFFF">67.5</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="2" style="background-color:#FFFFFF"><italic>Other effect biomarker</italic></td>
+<td align="center" style="background-color:#FFFFFF">91.7</td>
+<td align="center" style="background-color:#FFFFFF">33.8</td>
+<td align="center" style="background-color:#FFFFFF">98.8</td>
+<td align="center" style="background-color:#FFFFFF">49.4</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="2" style="background-color:#FFFFFF"><italic>Oxidative stress marker</italic></td>
+<td align="center" style="background-color:#FFFFFF">82.1</td>
+<td align="center" style="background-color:#FFFFFF">51.6</td>
+<td align="center" style="background-color:#FFFFFF">99.0</td>
+<td align="center" style="background-color:#FFFFFF">63.4</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Physiological parameter</td>
+<td align="center" style="background-color:#FFFFFF">84.0</td>
+<td align="center" style="background-color:#FFFFFF">70.1</td>
+<td align="center" style="background-color:#FFFFFF">90.8</td>
+<td align="center" style="background-color:#FFFFFF">76.4</td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold><italic>EXPOSURE ROUTES</italic></bold></td>
+<td align="center" style="background-color:#FFFFFF">89.0</td>
+<td align="center" style="background-color:#FFFFFF">92.3</td>
+<td align="center" style="background-color:#FFFFFF">87.4</td>
+<td align="center" style="background-color:#FFFFFF">90.6</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Combined</bold></td>
+<td align="center" style="background-color:#FFFFFF">80.9</td>
+<td align="center" style="background-color:#FFFFFF">43.9</td>
+<td align="center" style="background-color:#FFFFFF">97.0</td>
+<td align="center" style="background-color:#FFFFFF">56.9</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Dermal exposure</bold></td>
+<td align="center" style="background-color:#FFFFFF">83.9</td>
+<td align="center" style="background-color:#FFFFFF">72.6</td>
+<td align="center" style="background-color:#FFFFFF">98.0</td>
+<td align="center" style="background-color:#FFFFFF">77.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Inhalation</bold></td>
+<td align="center" style="background-color:#FFFFFF">92.4</td>
+<td align="center" style="background-color:#FFFFFF">81.5</td>
+<td align="center" style="background-color:#FFFFFF">93.3</td>
+<td align="center" style="background-color:#FFFFFF">86.6</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Outdoor air</td>
+<td align="center" style="background-color:#FFFFFF">91.1</td>
+<td align="center" style="background-color:#FFFFFF">83.1</td>
+<td align="center" style="background-color:#FFFFFF">98.0</td>
+<td align="center" style="background-color:#FFFFFF">86.9</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Indoor air</td>
+<td align="center" style="background-color:#FFFFFF">78.6</td>
+<td align="center" style="background-color:#FFFFFF">30.4</td>
+<td align="center" style="background-color:#FFFFFF">92.3</td>
+<td align="center" style="background-color:#FFFFFF">43.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Personal air</td>
+<td align="center" style="background-color:#FFFFFF">90.5</td>
+<td align="center" style="background-color:#FFFFFF">74.8</td>
+<td align="center" style="background-color:#FFFFFF">97.9</td>
+<td align="center" style="background-color:#FFFFFF">81.9</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Oral intake</bold></td>
+<td align="center" style="background-color:#FFFFFF">87.7</td>
+<td align="center" style="background-color:#FFFFFF">82.1</td>
+<td align="center" style="background-color:#FFFFFF">88.1</td>
+<td align="center" style="background-color:#FFFFFF">84.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Drinking water</td>
+<td align="center" style="background-color:#FFFFFF">83.4</td>
+<td align="center" style="background-color:#FFFFFF">81.3</td>
+<td align="center" style="background-color:#FFFFFF">95.7</td>
+<td align="center" style="background-color:#FFFFFF">82.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Dust</td>
+<td align="center" style="background-color:#FFFFFF">90.4</td>
+<td align="center" style="background-color:#FFFFFF">75.1</td>
+<td align="center" style="background-color:#FFFFFF">97.4</td>
+<td align="center" style="background-color:#FFFFFF">82.0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Food</td>
+<td align="center" style="background-color:#FFFFFF">88.4</td>
+<td align="center" style="background-color:#FFFFFF">75.8</td>
+<td align="center" style="background-color:#FFFFFF">93.2</td>
+<td align="center" style="background-color:#FFFFFF">81.6</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Products</td>
+<td align="center" style="background-color:#FFFFFF">80.4</td>
+<td align="center" style="background-color:#FFFFFF">42.3</td>
+<td align="center" style="background-color:#FFFFFF">96.4</td>
+<td align="center" style="background-color:#FFFFFF">55.4</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Soil</td>
+<td align="center" style="background-color:#FFFFFF">78.5</td>
+<td align="center" style="background-color:#FFFFFF">62.5</td>
+<td align="center" style="background-color:#FFFFFF">97.7</td>
+<td align="center" style="background-color:#FFFFFF">69.6</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The intrinsic evaluation is also graphically presented in <xref ref-type="fig" rid="pone.0173132.g003">Fig 3</xref> with color coding based on F-scores. The F-scores were generally high for the three top levels in the taxonomy. However, subdivision of effect biomarkers into distinct markers (i.e. gene, molecule and oxidative stress marker) generally resulted in lower F-scores. In addition, the nodes concerning <italic>indoor air</italic>, <italic>other effect biomarker</italic> and <italic>other tissue</italic> for exposure biomarker measurements performed poorly. Initially, the branches for exposure routes and exposure biomarkers were further classified into studied subpopulations (i.e. children, pregnant women and workers). However, due to the low number of abstracts relevant for these very specific sub-nodes, the resulting F-scores (range 11–78%) were not satisfactory and are therefore not reported in this paper.</p>
+<fig id="pone.0173132.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Results of the intrinsic evaluation.</title>
+<p>The color coding is based on F-scores (Green = &gt;75%, yellow = 50–75%, red = &lt;50%).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g003" xlink:type="simple"/>
+</fig>
+<sec id="sec010">
+<title>3.1.1. Feature analysis</title>
+<p>In this section, we investigate the influence of each feature type on the classification accuracy. We conduct a leave-one-out feature analysis, where we repeat the experiment setup (described in the previous section), but with the removal of one of the seven feature types in order to ascertain its influence on the classification decision boundary for each node in the taxonomy. <xref ref-type="table" rid="pone.0173132.t005">Table 5</xref> summarizes the results of this analysis.</p>
+<table-wrap id="pone.0173132.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t005</object-id>
+<label>Table 5</label> <caption><title>Analysis of the influence of each feature type on the classification accuracy.</title> <p>The classification accuracy is described as the F-score for each node after removal of respective feature type. The column “all” describes the F-scores when all feature types are used. F-scores that decreased after removal of respective feature type are presented in bold script.</p></caption>
+<alternatives>
+<graphic id="pone.0173132.t005g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t005" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="5" style="background-color:#FFFFFF">Node</th>
+<th align="center" style="background-color:#FFFFFF">All</th>
+<th align="center" style="background-color:#FFFFFF">LBOW</th>
+<th align="center" style="background-color:#FFFFFF">GR</th>
+<th align="center" style="background-color:#FFFFFF">NE</th>
+<th align="center" style="background-color:#FFFFFF">VC</th>
+<th align="center" style="background-color:#FFFFFF">N Bigram</th>
+<th align="center" style="background-color:#FFFFFF">MeSH</th>
+<th align="center" style="background-color:#FFFFFF">Chem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="5" style="background-color:#FFFFFF"><bold>BIOMONITORING</bold></td>
+<td align="center" style="background-color:#FFFFFF">95.2</td>
+<td align="center" style="background-color:#FFFFFF"><bold>85.3</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>92.4</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>91.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>92.3</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>93.9</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>88.9</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>94.3</bold></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="4" style="background-color:#FFFFFF"><bold>Exposure biomarker</bold></td>
+<td align="center" style="background-color:#FFFFFF">94.4</td>
+<td align="center" style="background-color:#FFFFFF"><bold>89.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>89.2</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>93.4</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>93.9</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>93.4</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>92.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>93.3</bold></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Adipose tissue</td>
+<td align="center" style="background-color:#FFFFFF">90.6</td>
+<td align="center" style="background-color:#FFFFFF"><bold>80.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>84.0</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>87.2</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>79.5</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>83.7</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>79.1</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>84.3</bold></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Blood</td>
+<td align="center" style="background-color:#FFFFFF">84.7</td>
+<td align="center" style="background-color:#FFFFFF"><bold>80.1</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>83.9</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>78.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>82.6</bold></td>
+<td align="center" style="background-color:#FFFFFF">85.2</td>
+<td align="center" style="background-color:#FFFFFF"><bold>84.5</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>82.4</bold></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" style="background-color:#FFFFFF"/>
+<td align="left" colspan="3" style="background-color:#FFFFFF">Hair/nail</td>
+<td align="center" style="background-color:#FFFFFF">93.6</td>
+<td align="center" style="background-color:#FFFFFF"><bold>84.2</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>91.6</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>91.7</bold></td>
+<td align="center" style="background-color:#FFFFFF">95.3</td>
+<td align="center" style="background-color:#FFFFFF"><bold>91.9</bold></td>
+<td align="center" style="background-color:#FFFFFF"><bold>92.3</bold></td>
+<td align="center" style="background-color:#FFFFFF">97.0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Mother’s milk</td>
+<td align="center">89.0</td>
+<td align="center"><bold>72.0</bold></td>
+<td align="center"><bold>85.4</bold></td>
+<td align="center"><bold>88.9</bold></td>
+<td align="center"><bold>83.1</bold></td>
+<td align="center"><bold>78.6</bold></td>
+<td align="center"><bold>76.8</bold></td>
+<td align="center"><bold>76.2</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Other tissue</td>
+<td align="center">39.8</td>
+<td align="center"><bold>25.6</bold></td>
+<td align="center"><bold>36.2</bold></td>
+<td align="center"><bold>36.9</bold></td>
+<td align="center"><bold>28.5</bold></td>
+<td align="center"><bold>28.4</bold></td>
+<td align="center"><bold>27.9</bold></td>
+<td align="center"><bold>26.6</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Placenta</td>
+<td align="center">80.0</td>
+<td align="center"><bold>55.0</bold></td>
+<td align="center"><bold>75.3</bold></td>
+<td align="center"><bold>75.6</bold></td>
+<td align="center"><bold>62.4</bold></td>
+<td align="center"><bold>59.3</bold></td>
+<td align="center"><bold>56.7</bold></td>
+<td align="center"><bold>56.4</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Urine</td>
+<td align="center">93.8</td>
+<td align="center"><bold>88.8</bold></td>
+<td align="center"><bold>90.1</bold></td>
+<td align="center"><bold>93.3</bold></td>
+<td align="center">94.5</td>
+<td align="center">96.0</td>
+<td align="center">95.4</td>
+<td align="center"><bold>92.0</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Effect biomarker</bold></td>
+<td align="center">85.3</td>
+<td align="center"><bold>83.2</bold></td>
+<td align="center"><bold>84.6</bold></td>
+<td align="center"><bold>82.9</bold></td>
+<td align="center"><bold>83.1</bold></td>
+<td align="center"><bold>83.1</bold></td>
+<td align="center"><bold>79.6</bold></td>
+<td align="center"><bold>80.1</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Biomarker</td>
+<td align="center">78.0</td>
+<td align="center"><bold>72.3</bold></td>
+<td align="center">80.4</td>
+<td align="center"><bold>73.9</bold></td>
+<td align="center"><bold>76.9</bold></td>
+<td align="center"><bold>73.2</bold></td>
+<td align="center"><bold>70.0</bold></td>
+<td align="center"><bold>71.7</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Gene</italic></td>
+<td align="center">74.0</td>
+<td align="center"><bold>65.6</bold></td>
+<td align="center"><bold>73.9</bold></td>
+<td align="center"><bold>70.0</bold></td>
+<td align="center"><bold>71.5</bold></td>
+<td align="center"><bold>72.9</bold></td>
+<td align="center"><bold>69.0</bold></td>
+<td align="center"><bold>72.3</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Molecule</italic></td>
+<td align="center">72.6</td>
+<td align="center"><bold>66.4</bold></td>
+<td align="center">76.7</td>
+<td align="center"><bold>70.4</bold></td>
+<td align="center"><bold>68.0</bold></td>
+<td align="center"><bold>68.2</bold></td>
+<td align="center"><bold>64.8</bold></td>
+<td align="center"><bold>65.7</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Lipid</italic></td>
+<td align="center">52.2</td>
+<td align="center"><bold>47.7</bold></td>
+<td align="center"><bold>47.3</bold></td>
+<td align="center"><bold>48.4</bold></td>
+<td align="center">53.2</td>
+<td align="center">53.4</td>
+<td align="center"><bold>50.1</bold></td>
+<td align="center">53.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Other molecule</italic></td>
+<td align="center">55.8</td>
+<td align="center"><bold>46.6</bold></td>
+<td align="center"><bold>53.6</bold></td>
+<td align="center"><bold>55.1</bold></td>
+<td align="center"><bold>45.4</bold></td>
+<td align="center"><bold>47.5</bold></td>
+<td align="center"><bold>49.4</bold></td>
+<td align="center"><bold>46.0</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"><italic>Protein</italic></td>
+<td align="center">67.5</td>
+<td align="center"><bold>54.2</bold></td>
+<td align="center"><bold>67.3</bold></td>
+<td align="center"><bold>62.6</bold></td>
+<td align="center"><bold>63.6</bold></td>
+<td align="center"><bold>60.2</bold></td>
+<td align="center"><bold>58.3</bold></td>
+<td align="center"><bold>57.2</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Other effect biomarker</italic></td>
+<td align="center">49.4</td>
+<td align="center">51.5</td>
+<td align="center"><bold>45.3</bold></td>
+<td align="center"><bold>46.4</bold></td>
+<td align="center">54.8</td>
+<td align="center">54.7</td>
+<td align="center">54.7</td>
+<td align="center">53.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="2"><italic>Oxidative stress marker</italic></td>
+<td align="center">63.4</td>
+<td align="center"><bold>62.7</bold></td>
+<td align="center"><bold>62.7</bold></td>
+<td align="center"><bold>59.2</bold></td>
+<td align="center">72.7</td>
+<td align="center">69.4</td>
+<td align="center">66.5</td>
+<td align="center">66.1</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Physiological parameter</td>
+<td align="center">76.4</td>
+<td align="center"><bold>70.2</bold></td>
+<td align="center"><bold>75.3</bold></td>
+<td align="center">80.4</td>
+<td align="center"><bold>70.5</bold></td>
+<td align="center"><bold>71.2</bold></td>
+<td align="center"><bold>69.6</bold></td>
+<td align="center"><bold>68.6</bold></td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold>EXPOSURE ROUTES</bold></td>
+<td align="center">90.6</td>
+<td align="center"><bold>89.2</bold></td>
+<td align="center"><bold>85.6</bold></td>
+<td align="center"><bold>84.5</bold></td>
+<td align="center"><bold>86.4</bold></td>
+<td align="center"><bold>89.7</bold></td>
+<td align="center"><bold>85.0</bold></td>
+<td align="center"><bold>88.9</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Combined</bold></td>
+<td align="center">56.9</td>
+<td align="center"><bold>51.7</bold></td>
+<td align="center"><bold>53.6</bold></td>
+<td align="center">57.2</td>
+<td align="center"><bold>55.1</bold></td>
+<td align="center"><bold>54.0</bold></td>
+<td align="center"><bold>56.2</bold></td>
+<td align="center"><bold>51.5</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Dermal exposure</bold></td>
+<td align="center">77.8</td>
+<td align="center"><bold>71.2</bold></td>
+<td align="center"><bold>71.9</bold></td>
+<td align="center">83.0</td>
+<td align="center"><bold>74.9</bold></td>
+<td align="center"><bold>74.8</bold></td>
+<td align="center"><bold>73.6</bold></td>
+<td align="center"><bold>71.4</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Inhalation</bold></td>
+<td align="center">86.6</td>
+<td align="center"><bold>78.9</bold></td>
+<td align="center"><bold>78.0</bold></td>
+<td align="center">88.5</td>
+<td align="center"><bold>85.2</bold></td>
+<td align="center"><bold>85.7</bold></td>
+<td align="center"><bold>86.5</bold></td>
+<td align="center"><bold>83.2</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Outdoor air</td>
+<td align="center">86.9</td>
+<td align="center"><bold>83.8</bold></td>
+<td align="center"><bold>80.5</bold></td>
+<td align="center"><bold>84.6</bold></td>
+<td align="center">87.3</td>
+<td align="center"><bold>83.9</bold></td>
+<td align="center"><bold>78.9</bold></td>
+<td align="center"><bold>80.5</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Indoor air</td>
+<td align="center">43.8</td>
+<td align="center"><bold>43.6</bold></td>
+<td align="center">47.0</td>
+<td align="center"><bold>43.2</bold></td>
+<td align="center">45.6</td>
+<td align="center">44.4</td>
+<td align="center">45.1</td>
+<td align="center"><bold>43.6</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Personal air</td>
+<td align="center">81.9</td>
+<td align="center"><bold>77.8</bold></td>
+<td align="center"><bold>74.8</bold></td>
+<td align="center">87.8</td>
+<td align="center">85.6</td>
+<td align="center"><bold>81.5</bold></td>
+<td align="center"><bold>76.8</bold></td>
+<td align="center">82.1</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left" colspan="4"><bold>Oral intake</bold></td>
+<td align="center">84.8</td>
+<td align="center"><bold>76.2</bold></td>
+<td align="center"><bold>78.7</bold></td>
+<td align="center"><bold>81.1</bold></td>
+<td align="center">87.2</td>
+<td align="center"><bold>82.8</bold></td>
+<td align="center"><bold>81.4</bold></td>
+<td align="center"><bold>82.0</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Drinking water</td>
+<td align="center">82.3</td>
+<td align="center"><bold>73.8</bold></td>
+<td align="center"><bold>76.1</bold></td>
+<td align="center"><bold>80.9</bold></td>
+<td align="center">85.0</td>
+<td align="center"><bold>80.9</bold></td>
+<td align="center"><bold>80.2</bold></td>
+<td align="center"><bold>78.7</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Dust</td>
+<td align="center">82.0</td>
+<td align="center"><bold>80.1</bold></td>
+<td align="center"><bold>80.2</bold></td>
+<td align="center"><bold>77.3</bold></td>
+<td align="center">82.4</td>
+<td align="center"><bold>80.8</bold></td>
+<td align="center"><bold>79.0</bold></td>
+<td align="center"><bold>79.7</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Food</td>
+<td align="center">81.6</td>
+<td align="center"><bold>79.6</bold></td>
+<td align="center"><bold>79.5</bold></td>
+<td align="center"><bold>78.3</bold></td>
+<td align="center"><bold>77.5</bold></td>
+<td align="center"><bold>80.2</bold></td>
+<td align="center"><bold>79.5</bold></td>
+<td align="center"><bold>78.3</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Products</td>
+<td align="center">55.4</td>
+<td align="center"><bold>50.4</bold></td>
+<td align="center"><bold>54.2</bold></td>
+<td align="center"><bold>54.8</bold></td>
+<td align="center">56.0</td>
+<td align="center"><bold>52.7</bold></td>
+<td align="center"><bold>52.2</bold></td>
+<td align="center"><bold>51.6</bold></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left" colspan="3">Soil</td>
+<td align="center">69.6</td>
+<td align="center"><bold>58.0</bold></td>
+<td align="center"><bold>68.8</bold></td>
+<td align="center">70.6</td>
+<td align="center"><bold>62.2</bold></td>
+<td align="center"><bold>65.2</bold></td>
+<td align="center"><bold>61.0</bold></td>
+<td align="center"><bold>64.8</bold></td>
+</tr>
+<tr>
+<td align="right"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="right"><bold>Average:</bold></td>
+<td align="center" style="border-top:thick">75.5</td>
+<td align="center" style="border-top:thick"><bold>68.6</bold></td>
+<td align="center" style="border-top:thick"><bold>72.6</bold></td>
+<td align="center" style="border-top:thick"><bold>73.7</bold></td>
+<td align="center" style="border-top:thick"><bold>73.2</bold></td>
+<td align="center" style="border-top:thick"><bold>72.5</bold></td>
+<td align="center" style="border-top:thick"><bold>70.7</bold></td>
+<td align="center" style="border-top:thick"><bold>71.0</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>LBOW: Lemmatized Bag of Words, GR: Grammatical Relations, NE: Named Entities, VC: Verb Clusters, N.Bigrams: Noun Bigrams, MeSH: Medical Subject Headings, Chem: Chemical lists.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>On average, LBOW features have the most significant influence on the classification accuracy as it results in the largest drop (6.9%) on the averaged F-score. With the exception of only one category (<italic>other effect biomarker</italic>), all nodes benefit from the inclusion of LBOW features. On the other hand, the analysis shows that the removal of NE features marks the lowest drop (1.8%) in accuracy, with 6 out of the 32 categories showing an improvement in F-score. When considering only the count of nodes that show an improvement in F-score accuracy, VC features are the least beneficial overall, as 12 of the 32 categories improve in F-score when VC features are removed.</p>
+<p>Overall, the analysis shows that all feature types benefit our classification methodology, as they all result in reduction of F-score when they are removed.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>3.2. Case studies</title>
+<p>The classifier was applied in a number of case studies demonstrating how the classifier can be used to assist researchers by facilitating information retrieval and classification, enabling data gap recognition and overviewing available scientific literature using chemical-specific publication profiles.</p>
+<sec id="sec012">
+<title>3.2.1. Manual versus automatic search for data selection</title>
+<p>One of the authors had previously performed an extensive manual search for articles that report levels of persistent organic pollutants (POPs) in human blood and breast milk. The manual search was performed while preparing for a report [<xref ref-type="bibr" rid="pone.0173132.ref024">24</xref>], in which a study was considered relevant for inclusion only if it fulfilled a set of criteria regarding sampling population, sampling year, methodical quality, etc. After applying these strict criteria, only a fraction of all articles reporting blood and milk measurements were included in the final report. However, in the initial stage it was crucial to find all potentially relevant articles for further manual evaluation, even if they did not meet the criteria for inclusion in the final report. Thus, the initial manual search was extremely time consuming.</p>
+<p>This real life example was used to evaluate the applicability of the automatic classifier for the initial literature gathering and classification. Here, we compare the manual search with an automatic search performed by our classifier.</p>
+<p>First, abstracts about the chemicals of concern published between 1 Jan 2000 and 1 July 2014 were retrieved from PubMed and classified by the automatic classifier. The comparison in <xref ref-type="table" rid="pone.0173132.t006">Table 6</xref> describes the recall of the classifier (i.e., was it able to retrieve most of the relevant abstracts), as shown in column “Automatic/Manual”. For measurements in blood, the automatic classifier found all articles that had been included in the report, with exception for one article. For measurements in milk, all except three articles were found by the automatic classifier. <xref ref-type="table" rid="pone.0173132.t006">Table 6</xref> also describes and the number of irrelevant abstracts that were successfully filtered out by the classifier (i.e., was it useful for reducing the amount of literature to be further manually reviewed by a researcher), as indicated by the difference between columns “Abstracts found with manual PubMed search” and “Abstracts automatically classified as …”. While there could be false positives in the abstracts automatically classified as relevant, meaning that the researcher still have to exclude some abstracts manually, the current case study does suggest that the automatic classifier offers a much better starting point for exposure assessment than traditional PubMed searches.</p>
+<table-wrap id="pone.0173132.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t006</object-id>
+<label>Table 6</label> <caption><title>Comparison between manual and automatic classification of articles describing measurements of nine chemicals/chemical groups in human blood and milk.</title></caption>
+<alternatives>
+<graphic id="pone.0173132.t006g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t006" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2">Compound</th>
+<th align="center" rowspan="2">Abstracts found with manual PubMed search<xref ref-type="table-fn" rid="t006fn001"><sup>1</sup></xref></th>
+<th align="center" colspan="2">Measurements in blood</th>
+<th align="center" colspan="2">Measurements in mother’s milk</th>
+</tr>
+<tr>
+<th align="center">Abstracts automatically classified as blood<xref ref-type="table-fn" rid="t006fn001"><sup>2</sup></xref></th>
+<th align="center">Automatic/ Manual<xref ref-type="table-fn" rid="t006fn003"><sup>3</sup></xref></th>
+<th align="center">Abstracts automatically classified as milk<xref ref-type="table-fn" rid="t006fn001"><sup>2</sup></xref></th>
+<th align="center">Automatic/ Manual<xref ref-type="table-fn" rid="t006fn003"><sup>3</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">DDT/DDE</td>
+<td align="center">2050</td>
+<td align="center">604</td>
+<td align="center">28/28</td>
+<td align="center">137</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td align="left">α-, β- &amp; γ-HCH</td>
+<td align="center">699</td>
+<td align="center">203</td>
+<td align="center"><bold>14/15</bold></td>
+<td align="center">70</td>
+<td align="center">3/3</td>
+</tr>
+<tr>
+<td align="left">Mirex</td>
+<td align="center">86</td>
+<td align="center">46</td>
+<td align="center">2/2</td>
+<td align="center">11</td>
+<td align="center">0/0</td>
+</tr>
+<tr>
+<td align="left">PCB</td>
+<td align="center">3331</td>
+<td align="center">1152</td>
+<td align="center">30/30</td>
+<td align="center">232</td>
+<td align="center">10/10</td>
+</tr>
+<tr>
+<td align="left">PCDD/F</td>
+<td align="center">2886</td>
+<td align="center">480</td>
+<td align="center">5/5</td>
+<td align="center">162</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td align="left">PFOS</td>
+<td align="center">561</td>
+<td align="center">285</td>
+<td align="center">16/16</td>
+<td align="center">25</td>
+<td align="center"><bold>6/8</bold></td>
+</tr>
+<tr>
+<td align="left">PBDE</td>
+<td align="center">905</td>
+<td align="center">251</td>
+<td align="center">23/23</td>
+<td align="center">130</td>
+<td align="center"><bold>13/14</bold></td>
+</tr>
+<tr>
+<td align="left">Aldrin/ dieldrin</td>
+<td align="center">282</td>
+<td align="center">59</td>
+<td align="center">2/2</td>
+<td align="center">28</td>
+<td align="center">2/2</td>
+</tr>
+<tr>
+<td align="left">Endosulfan</td>
+<td align="center">257</td>
+<td align="center">37</td>
+<td align="center">2/2</td>
+<td align="center">13</td>
+<td align="center">1/1</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t006fn001"><p><sup>1</sup>Number of abstracts found with a PubMed search using the chemical name as search term, applying time restriction 1 Jan 2000–1 July 2014 and only including abstracts indexed with the MeSH term “humans”.</p></fn>
+<fn id="t006fn002"><p><sup>2</sup>Number of abstracts automatically classified under respective node (blood or milk) regardless if they met the criteria for inclusion in the report.</p></fn>
+<fn id="t006fn003"><p><sup>3</sup>Number of manually selected abstracts that met the criteria for inclusion in the report (manual), and the number out of these manually selected abstracts that were found also among the abstracts automatically classified under each relevant node (automatic).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec013">
+<title>3.2.2. Publication profiles of chemicals</title>
+<p>Three chemicals (hexachlorobenzene, lead and 4-nonylphenol) with different properties, exposure routes and sources were selected to evaluate if publication profiles obtained from the automatic classification reflect expected exposure information profiles.</p>
+<p><italic>Hexachlorobenzene</italic> (HCB) is a persistent organic pollutant which was used as a fungicide until the 1970s. Although it is now globally banned, HCB is still present in the environment and humans are exposed primarily via food [<xref ref-type="bibr" rid="pone.0173132.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0173132.ref026">26</xref>]. <xref ref-type="fig" rid="pone.0173132.g004">Fig 4</xref> clearly illustrates that ingestion of food is the most studied exposure route, whereas other routes are poorly studied. HCB is a lipid-soluble compound predominantly measured in blood as well as in the body’s fat containing tissues, such as adipose tissues and mother’s milk, which is reflected by the publication profile.</p>
+<fig id="pone.0173132.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Publication profiles of exposure information about 4-NP, HCB and lead.</title>
+<p>The percentages of the total number of abstracts retrieved from PubMed and considered relevant for the full taxonomy are presented. The total number of abstracts was 130 for 4-NP, 722 for HCB and 7753 for lead.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g004" xlink:type="simple"/>
+</fig>
+<p><italic>Lead</italic> is a naturally occurring toxic metal used in e.g. mining and smelting activities and historically used in products such as paint and gasoline. Humans are mainly exposed to lead via ingestion of contaminated food or water and children can also be exposed via ingestion of dust and soil [<xref ref-type="bibr" rid="pone.0173132.ref027">27</xref>]. For occupationally exposed individuals, inhalation is an important exposure route. According to <xref ref-type="fig" rid="pone.0173132.g004">Fig 4</xref>, ingestion of food, dust, soil as well as inhalation are almost equally studied exposure routes. According to the publication profile, lead is predominantly measured in blood, followed by other tissues and urine, which is in accordance with current knowledge [<xref ref-type="bibr" rid="pone.0173132.ref028">28</xref>]. The high number of measurements in other tissues mostly considers lead in bones and teeth, which are established matrices for lead measurements.</p>
+<p>A surprisingly high number of abstracts about lead and HCB were classified into the exposure biomarker sub-node urine. The reason for this is that other chemicals have been measured in urine in the same articles in which HCB or lead have been measured in blood. Likewise, articles about HCB and lead have been classified into the exposure route sub-node products because another chemical (mercury) has been measured in amalgam fillings (considered as a product) while exposure to HCB or lead has been assessed from other exposure sources than products in the same abstracts. The classifier has not misclassified the abstract in these cases, however it was not able to distinguish between different chemicals presented in the same abstract.</p>
+<p><italic>4-nonylphenol</italic> (4-NP) is an endocrine disrupting chemical that has been used as a surfactant in e.g. industrial and household cleaning products and in the production of e.g. paints and pesticides [<xref ref-type="bibr" rid="pone.0173132.ref029">29</xref>, <xref ref-type="bibr" rid="pone.0173132.ref030">30</xref>]. Available human exposure information about 4-NP was found to be very scarce. Due to the low number of abstracts in each node for 4-NP, it is difficult to draw conclusions about the publication profile. However, <xref ref-type="fig" rid="pone.0173132.g004">Fig 4</xref> shows that urine and blood are the most studied matrices for measuring exposure biomarkers, which is expected [<xref ref-type="bibr" rid="pone.0173132.ref031">31</xref>]. The low number of abstracts allowed manual evaluation of the classification precision of all abstracts about 4-NP included in <xref ref-type="fig" rid="pone.0173132.g004">Fig 4</xref>. With few exceptions, the abstracts were classified correctly (96% true positives, 4% false positives).</p>
+</sec>
+<sec id="sec014">
+<title>3.2.3. Differences in exposure data within a group of chemicals</title>
+<p>Phthalates are a group of industrial chemicals mainly used as plasticizers in PVC, but also in non-plastic products such as personal care products, paints and glues [<xref ref-type="bibr" rid="pone.0173132.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0173132.ref033">33</xref>]. Humans are exposed primarily via the diet, but also from dust, air and direct contact with consumer products [<xref ref-type="bibr" rid="pone.0173132.ref034">34</xref>–<xref ref-type="bibr" rid="pone.0173132.ref036">36</xref>].</p>
+<p>This case study aims to map the distribution and amount of published exposure information available for six different phthalates; di(2-ethylhexyl) phthalate (DEHP), dibutyl phthalate (DBP), butylbenzyl phthalate (BBzP), diisobutyl phthalate (DiBP), diisononyl phthalate (DiNP) and diisodecyl phthalate (DiDP). Due to their toxic effects, the use of DEHP, DBP, BBzP and DiBP is prohibited within the EU since 2015, whereas DiNP and DiDP are still in use and now substitute the banned phthalates. In this case study, we investigate if the amount of available exposure data differs between the banned phthalates and the phthalates still in use.</p>
+<p>All available abstracts in PubMed about these six phthalates were automatically classified to create publication distribution profiles. In <xref ref-type="fig" rid="pone.0173132.g005">Fig 5</xref>, publication profiles for exposure biomarker measurements and exposure routes are presented. The figure shows that the levels of phthalates in humans are measured predominantly in urine as phthalate metabolites, whereas measurements in blood are less common, which is expected. Measurements in adipose tissue, hair/nail and placenta are scarce or lacking for all phthalates. The publication profiles also reflect that we are mainly exposed to phthalates via food. Publication distribution profiles for effect biomarkers are presented in <xref ref-type="fig" rid="pone.0173132.g006">Fig 6</xref>.</p>
+<fig id="pone.0173132.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Publication profiles for exposure biomarkers and exposure routes for different phthalate esters.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g005" xlink:type="simple"/>
+</fig>
+<fig id="pone.0173132.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Publication profiles for effect biomarkers related to exposure to different phthalate esters.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.g006" xlink:type="simple"/>
+</fig>
+<p>This case study shows that the banned phthalates (DEHP, DBP, BBzP) are the most studied compounds, whereas there are considerable data gaps for the phthalates still in use (DiNP and DiDP). However, there are little available data also for the banned phthalate DiBP. The relatively larger amount of data for the banned compounds may be due to that these compounds have more established toxic properties and have historically been the most commonly used phthalates. However, DiNP and DiDP are among the most used phthalates in Europe today [<xref ref-type="bibr" rid="pone.0173132.ref033">33</xref>, <xref ref-type="bibr" rid="pone.0173132.ref037">37</xref>], which is a reason to request more exposure data for these compounds. The overall pattern of phthalates may reflect general lack of exposure data for substituting compounds, whereas ample exposure data are available for compounds used for a long time. These findings raise concern that the research is not up-to-date with the current use of chemicals.</p>
+</sec>
+<sec id="sec015">
+<title>3.2.4. Information retrieval</title>
+<p>Automatic classification of abstract text can be shown to improve information retrieval compared to manual PubMed searches. The aim of this case study was to show whether using our classification system we can improve the recall of abstracts while at least keeping the same precision of results retrieved by PubMed search queries.</p>
+<p>In this case study, we considered search queries that utilize our classification taxonomy. We selected the pollutant <italic>lead</italic> (CAS number 7439-92-1) as the chemical of interest and we then retrieved abstracts from PubMed that are relevant to a certain type of exposure, for example inhalation, i.e. the search query would typically be formulated as “<italic>7439-92-1 AND inhalation</italic>” which retrieves abstracts from PubMed that should in theory be both relevant to lead and inhalation. This particular search query yielded 149 results. However, when using our system in conjunction, i.e. by classifying all lead related documents according to the taxonomy, and then observe how many were classified under the <italic>inhalation</italic> node in the taxonomy, we identified 337 abstracts, which is more than double the number identified by PubMed. This large difference is due to the fact that our NLP pipeline considers far more factors than search term occurrences in the text.</p>
+<p>In this case study, we show how this works by running this experiment on the five search queries shown in <xref ref-type="table" rid="pone.0173132.t007">Table 7</xref>, along with automatic classification into the corresponding nodes in our taxonomy. <xref ref-type="table" rid="pone.0173132.t007">Table 7</xref> details the improvement in recall for the five queries when using our automatic classifier in comparison to the corresponding search query in PubMed.</p>
+<table-wrap id="pone.0173132.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t007</object-id>
+<label>Table 7</label> <caption><title>The number of abstracts retrieved by PubMed using a search query VS the number of abstracts classified into the corresponding node in our system.</title></caption>
+<alternatives>
+<graphic id="pone.0173132.t007g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t007" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">PubMed search query</th>
+<th align="center">Node in the taxonomy</th>
+<th align="center"># of abstracts retrieved by PubMed<xref ref-type="table-fn" rid="t007fn001"><sup>1</sup></xref></th>
+<th align="center"># of abstracts classified by our system<xref ref-type="table-fn" rid="t007fn001"><sup>1</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="border-top:thick"><bold>7439-92-1 AND inhalation</bold></td>
+<td align="left" style="border-top:thick">Exposure routes → Inhalation</td>
+<td align="center" style="border-top:thick">149</td>
+<td align="center" style="border-top:thick">337</td>
+</tr>
+<tr>
+<td align="left"><bold>7439-92-1 AND (DNA OR gene) AND biomarker</bold></td>
+<td align="left">Biomonitoring → Effect biomarker → Biomarker → Gene</td>
+<td align="center">65</td>
+<td align="center">120</td>
+</tr>
+<tr>
+<td align="left"><bold>7439-92-1 AND protein AND biomarker</bold></td>
+<td align="left">Biomonitoring → Effect biomarker → Biomarker → Molecule → Protein</td>
+<td align="center">149</td>
+<td align="center">357</td>
+</tr>
+<tr>
+<td align="left"><bold>7439-92-1 AND blood AND biomarker</bold></td>
+<td align="left">Biomonitoring → Exposure biomarker → Blood</td>
+<td align="center">407</td>
+<td align="center">3784</td>
+</tr>
+<tr>
+<td align="left"><bold>7439-92-1 AND (hair OR nail) AND biomarker</bold></td>
+<td align="left">Biomonitoring → Exposure biomarker → Hair/nail</td>
+<td align="center">24</td>
+<td align="center">257</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t007fn001"><p><sup>1</sup>These numbers include both true and false positive abstracts.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>We can see that our system was able to identify far more abstracts than what was retrieved by PubMed, in some cases by an order of magnitude. However, improving recall alone is not sufficient, as we also need to at least keep the same level of precision currently achieved by PubMed. In order to approximate this, the top 20 abstracts retrieved from each PubMed search query were reviewed to ascertain whether each abstract is relevant for the given query. From this relevance judgment, we can approximate the precision and therefore percentage of false positive abstracts from the PubMed search as well as our system’s classification. <xref ref-type="table" rid="pone.0173132.t008">Table 8</xref> details the precision performance according to the top 20 retrieved abstracts.</p>
+<table-wrap id="pone.0173132.t008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0173132.t008</object-id>
+<label>Table 8</label> <caption><title>Performance comparison according to top returned results sample.</title> <p>Manual evaluation of 20 abstracts retrieved from PubMed using a search query VS automatic classification into the corresponding node in our system.</p></caption>
+<alternatives>
+<graphic id="pone.0173132.t008g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0173132.t008" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">PubMed search query</th>
+<th align="center" colspan="2">PubMed keyword search</th>
+<th align="center" colspan="2">Classification by our system</th>
+<th align="center" rowspan="2">Sample size</th>
+</tr>
+<tr>
+<th align="center">Precision</th>
+<th align="center">False Positive</th>
+<th align="center">Precision</th>
+<th align="center">False Positive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="border-top:thick">7439-92-1 AND inhalation</td>
+<td align="center" style="border-top:thick">50%</td>
+<td align="center" style="border-top:thick">50%</td>
+<td align="center" style="border-top:thick">100%</td>
+<td align="center" style="border-top:thick">0%</td>
+<td align="center" style="border-top:thick">20</td>
+</tr>
+<tr>
+<td align="left">7439-92-1 AND (DNA OR gene) AND biomarker</td>
+<td align="center">35%</td>
+<td align="center">65%</td>
+<td align="center">100%</td>
+<td align="center">0%</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">7439-92-1 AND protein AND biomarker</td>
+<td align="center">35%</td>
+<td align="center">65%</td>
+<td align="center">100%</td>
+<td align="center">0%</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">7439-92-1 AND blood AND biomarker</td>
+<td align="center">85%</td>
+<td align="center">15%</td>
+<td align="center">95%</td>
+<td align="center">5%</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">7439-92-1 AND (hair OR nail) AND biomarker</td>
+<td align="center">60%</td>
+<td align="center">40%</td>
+<td align="center">75%</td>
+<td align="center">20%</td>
+<td align="center">20</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>From the results in <xref ref-type="table" rid="pone.0173132.t008">Table 8</xref>, we observe that our model’s performance is substantially more precise and has far fewer false positives than the keyword based search in PubMed. We believe that in the cases where search queries have correspondence to our taxonomy, we can improve both recall and precision by a substantial margin. This is due to the fact that our classification system considers far more factors when judging for relevance according to the exposure domain than PubMed keyword searches. Therefore, our specialised system can provide superior information retrieval for exposure science researchers.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec016" sec-type="conclusions">
+<title>4. Discussion</title>
+<p>In this paper, we introduce a new application of text mining technology in the scenario of exposure research. We have evaluated the performance of the system and presented a number of case studies showing the usefulness of an automatic classifier for retrieving and classifying exposure information when e.g. preparing for reports, reviews or exposure assessments and for overviewing publication distribution profiles and identifying data gaps.</p>
+<p>This project benefits from the collaboration between experts in exposure sciences, who have developed a relevant taxonomy and performed the annotations applying their knowledge in the field, and scientists in computational linguistics. Although text mining approaches have been developed and used for several biomedical fields [<xref ref-type="bibr" rid="pone.0173132.ref005">5</xref>], this is the first automatic classifier for chemical exposure information. We used traditional, but still top-performing feature extraction and machine learning algorithms for semantic classification of biomedical literature [<xref ref-type="bibr" rid="pone.0173132.ref038">38</xref>–<xref ref-type="bibr" rid="pone.0173132.ref040">40</xref>]. The SVM classifier used in our study has important advantages for text classification, being fairly robust to overfitting and easy to scale up to considerable feature dimensionalities [<xref ref-type="bibr" rid="pone.0173132.ref040">40</xref>]. Even the state-of-the-art document classification technology is built on top of standard classifiers such as a logistic classifier or SVM [<xref ref-type="bibr" rid="pone.0173132.ref041">41</xref>]. Recent advances in representation learning enable words, sentences, and documents to be represented by a dense vector which, on certain datasets, outperforms n-grams and alike obtained through traditional feature engineering. However, counterexamples also exist especially in similar classification tasks on biomedical literature data. For instance, as reported in [<xref ref-type="bibr" rid="pone.0173132.ref042">42</xref>], without the assistance of handcrafted features, the performance of the more fancy distributed representations of documents is less satisfactory, justifying the use of classical features.</p>
+<p>The intrinsic evaluation of our automatic classifier showed good performance as high F-scores were generally achieved. We have demonstrated that our classifier successfully categorizes exposure data in a manner that greatly narrows down the amount of irrelevant information that would be retrieved by broad keyword based PubMed searches. We have also showed that our classifier is capable of finding more abstracts in specific sub-nodes and at the same time achieve higher accuracy compared to if the corresponding PubMed search strings were used. Consequently, the information that would be lost using specified PubMed searches is found by our classifier and the relevance of the retrieved information is higher.</p>
+<p>The problem-based case studies showed that the classifier successfully can be used by researchers as a time-saving complement to manual information search. We also showed that the classifier creates chemical-specific publication profiles that reflect what we know about well-studied chemicals, which further confirms the relevance of the obtained results. As we show in our case studies, such profiles can be used to overview exposure data when comparing different chemicals or compounds within a chemical group and to detect data gaps.</p>
+<p>In this paper, we present the first automatic classifier for exposure data. To the best of our knowledge, the only existing database for annotated exposure information is the Comparative Toxicogenomics Database (CTD; <ext-link ext-link-type="uri" xlink:href="http://ctdbase.org/" xlink:type="simple">http://ctdbase.org</ext-link>), in which exposure information is one out of several modules [<xref ref-type="bibr" rid="pone.0173132.ref043">43</xref>]. However, in contrast to our classifier, the CTD rely on manual curation of all articles in the database. The curation for the CTD is structured according to an Exposure Science Ontology (ExO) [<xref ref-type="bibr" rid="pone.0173132.ref044">44</xref>], which was not considered as a suitable structure for our exposure taxonomy.</p>
+<p>The taxonomy presented in this paper has great potential to be extended to include additional relevant branches for exposure information. For example, measurements of environmental media, such as biota and ambient air may provide important complementary information, especially when other exposure data is scarce. The taxonomy could also be extended to include classification of health outcomes (i.e. disorders and/or diseases) of chemical exposures studied in e.g. epidemiological studies.</p>
+<p>In our taxonomy and in the annotation process we exclusively considered human exposure data. In related research areas (such as toxicology), also animal and <italic>in vitro</italic> data are highly relevant for the chemical risk assessment. In future continuation of the project, animal and <italic>in vitro</italic> data could be included in the annotation and machine learning processes aiming to better overview the current knowledge of e.g. effect biomarkers.</p>
+<p>In human exposure assessments, data from the general adult population is not necessarily transferrable to subpopulations, such as children or pregnant women, due to differences in behavioral patterns, physiology and susceptibility. Chemical exposure measurements or calculations representative for specific subpopulations are therefore important to accurately assess exposure in the total population and to identify highly exposed groups in the population [<xref ref-type="bibr" rid="pone.0173132.ref045">45</xref>]. Therefore, the taxonomy was initially developed to differentiate between studies performed in children, pregnant women and workers. The classifiers achieved F-scores of 11–78 percent for these subpopulation specific nodes under the exposure biomarker and exposure route branches (data not shown). These moderate scores may be due to the relatively few abstracts available for annotation for these sub-nodes. This highlights the need for more exposure studies performed in susceptible subgroups.</p>
+<p>The evaluation of the classifier revealed some challenges which should be addressed in further optimization of the system. Here, we present three challenges that should be overcome. 1) The nodes <italic>other tissue</italic> for exposure biomarker measurements, <italic>other effect biomarkers</italic> and <italic>indoor air</italic> performed poorly, probably due to the diversity of data in these nodes. Using our gained knowledge about the characteristics of this diverse information, each node can be divided into more specific nodes, which provide more relevant classification and enhance the F-scores. 2) The classifier is unable to distinguish between different chemicals that are measured in different tissues but presented in the same article. This is not a classification error <italic>per se</italic> since these abstracts are classified correctly based on the available information, however chemical-specific publication profiles may show an incorrect pattern if the misclassification occurs systematically. Addressing this problem will require further analysis of the available annotations for textual cues that might help the classifier to make the distinction. 3) Aiming to exclude animal and <italic>in vitro</italic> studies when retrieving abstracts from PubMed, only abstracts indexed with the MeSH term “humans” were used. However, some animal and <italic>in vitro</italic> studies were also labeled with this MeSH term and were therefore retrieved and included in the automatic classification. In these cases, our classifier classified the information correctly, but the interpretation of the results as exclusively human data may be misleading. To overcome this problem, we can’t change the manner in which abstracts are indexed by PubMed. However, by extending the taxonomy to include animal and <italic>in vitro</italic> studies, we would overcome these biases.</p>
+<p>In conclusion, we have introduced and evaluated an automatic classifier for human exposure data that constitutes the first step towards developing a text mining tool that can support practical tasks such as the exposure assessment in the chemical risk assessment process. The promising results reported in this paper and identification of strengths, challenges and possible future improvements of the classifier can be used to further optimize the approach in future work.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0173132.ref001"><label>1</label><mixed-citation publication-type="other" xlink:type="simple">FAO/WHO. Application of risk analysis to food standard issues. Report of the joint FAO/WHO consultation. Geneva; 1995.</mixed-citation></ref>
+<ref id="pone.0173132.ref002"><label>2</label><mixed-citation publication-type="book" xlink:type="simple"><collab>NRC</collab>. <source>Risk assessment in the federal government. Managing the process</source>. <publisher-loc>Washington</publisher-loc>: <publisher-name>National Academy Press</publisher-name>; <year>1983</year>.</mixed-citation></ref>
+<ref id="pone.0173132.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Angerer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ewers</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Wilhelm</surname> <given-names>M</given-names></name>. <article-title>Human biomonitoring: State of the art</article-title>. <source>International Journal of Hygiene and Environmental Health</source>. <year>2007</year>;<volume>210</volume>(<issue>3–4</issue>):<fpage>201</fpage>–<lpage>28</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijheh.2007.01.024" xlink:type="simple">10.1016/j.ijheh.2007.01.024</ext-link></comment> <object-id pub-id-type="pmid">17376741</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hunter</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>KB</given-names></name>. <article-title>Biomedical Language Processing: What's Beyond PubMed?</article-title> <source>Molecular Cell</source>. <year>2006</year>;<volume>21</volume>(<issue>5</issue>):<fpage>589</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.molcel.2006.02.012" xlink:type="simple">10.1016/j.molcel.2006.02.012</ext-link></comment> <object-id pub-id-type="pmid">16507357</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref005"><label>5</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Simpson</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Demner-Fushman</surname> <given-names>D</given-names></name>. <source>Biomedical text mining: A survey of recent progress. Mining Text Data</source>: <publisher-name>Springer</publisher-name>; <year>2012</year>. pp.<fpage>465</fpage>–<lpage>517</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baker</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Silins</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ali</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Högberg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Stenius</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Korhonen</surname> <given-names>A</given-names></name>. <article-title>Automatic semantic classification of scientific literature according to the hallmarks of cancer</article-title>. <source>Bioinformatics</source>. <year>2016</year>;<volume>32</volume>(<issue>3</issue>):<fpage>432</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bioinformatics/btv585" xlink:type="simple">10.1093/bioinformatics/btv585</ext-link></comment> <object-id pub-id-type="pmid">26454282</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Patumcharoenpol</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Chan</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Meechai</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Biomedical text mining and its applications in cancer research</article-title>. <source>Journal of biomedical informatics</source>. <year>2013</year>;<volume>46</volume>(<issue>2</issue>):<fpage>200</fpage>–<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbi.2012.10.007" xlink:type="simple">10.1016/j.jbi.2012.10.007</ext-link></comment> <object-id pub-id-type="pmid">23159498</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Korhonen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Séaghdha</surname> <given-names>DO</given-names></name>, <name name-style="western"><surname>Silins</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Högberg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Stenius</surname> <given-names>U</given-names></name>. <article-title>Text mining for literature review and knowledge discovery in cancer risk assessment and research</article-title>. <source>PloS one</source>. <year>2012</year>;<volume>7</volume>(<issue>4</issue>):<fpage>e33427</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0033427" xlink:type="simple">10.1371/journal.pone.0033427</ext-link></comment> <object-id pub-id-type="pmid">22511921</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Silins</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Korhonen</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Stenius</surname> <given-names>U</given-names></name>. <article-title>A text-mining approach for chemical risk assessment and cancer research</article-title>. <source>Toxicology Letters</source>. <year>2014</year>;<volume>229</volume>:<fpage>S164</fpage>–<lpage>S5</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Kelly</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Tong</surname> <given-names>W</given-names></name>. <article-title>Of text and gene–using text mining methods to uncover hidden knowledge in toxicogenomics</article-title>. <source>BMC systems biology</source>. <year>2014</year>;<volume>8</volume>(<issue>1</issue>):<fpage>1</fpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harpaz</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Callahan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tamang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Low</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Odgers</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Finlayson</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Text mining for adverse drug events: the promise, challenges, and state of the art</article-title>. <source>Drug safety</source>. <year>2014</year>;<volume>37</volume>(<issue>10</issue>):<fpage>777</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s40264-014-0218-z" xlink:type="simple">10.1007/s40264-014-0218-z</ext-link></comment> <object-id pub-id-type="pmid">25151493</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Karimi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Metke-Jimenez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gaire</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Paris</surname> <given-names>C</given-names></name>. <article-title>Text and data mining techniques in adverse drug reaction detection</article-title>. <source>ACM Computing Surveys (CSUR)</source>. <year>2015</year>;<volume>47</volume>(<issue>4</issue>):<fpage>56</fpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref013"><label>13</label><mixed-citation publication-type="other" xlink:type="simple">Guo Y, Silins I, Reichart R, Korhonen A. CRAB reader: A tool for analysis and visualization of argumentative zones in scientific literature. In Proceedings of COLING 2012: Demonstration Papers. pp.183-90.</mixed-citation></ref>
+<ref id="pone.0173132.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhai</surname> <given-names>C</given-names></name>. <article-title>An empirical study of tokenization strategies for biomedical information retrieval</article-title>. <source>Information Retrieval</source>. <year>2007</year>;<volume>10</volume>(<issue>4–5</issue>):<fpage>341</fpage>–<lpage>63</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref015"><label>15</label><mixed-citation publication-type="other" xlink:type="simple">Bird S, editor. NLTK: the natural language toolkit. Proceedings of the COLING/ACL on Interactive presentation sessions. Association for Computational Linguistics; 2006: pp.69-72.</mixed-citation></ref>
+<ref id="pone.0173132.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lowe</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Barnett</surname> <given-names>GO</given-names></name>. <article-title>Understanding and using the medical subject headings (MeSH) vocabulary to perform literature searches</article-title>. <source>Jama</source>. <year>1994</year>;<volume>271</volume>(<issue>14</issue>):<fpage>1103</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">8151853</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref017"><label>17</label><mixed-citation publication-type="other" xlink:type="simple">Clark S, editor. Supertagging for combinatory categorial grammar. Proceedings of the 6th International Workshop on Tree Adjoining Grammars and Related Frameworks (TAG+ 6); 2002: pp.19-24.</mixed-citation></ref>
+<ref id="pone.0173132.ref018"><label>18</label><mixed-citation publication-type="other" xlink:type="simple">Clark S, Hockenmaier J, Steedman M, editors. Building deep dependency structures with a wide-coverage CCG parser. Proceedings of the 40th Annual Meeting on Association for Computational Linguistics. Association for Computational Linguistics; 2002: pp.327-34.</mixed-citation></ref>
+<ref id="pone.0173132.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rimell</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Clark</surname> <given-names>S</given-names></name>. <article-title>Porting a lexicalized-grammar parser to the biomedical domain</article-title>. <source>Journal of biomedical informatics</source>. <year>2009</year>;<volume>42</volume>(<issue>5</issue>):<fpage>852</fpage>–<lpage>65</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbi.2008.12.004" xlink:type="simple">10.1016/j.jbi.2008.12.004</ext-link></comment> <object-id pub-id-type="pmid">19141332</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Settles</surname> <given-names>B</given-names></name>. <article-title>ABNER: an open source tool for automatically tagging genes, proteins and other entity names in text</article-title>. <source>Bioinformatics</source>. <year>2005</year>;<volume>21</volume>(<issue>14</issue>):<fpage>3191</fpage>–<lpage>2</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bioinformatics/bti475" xlink:type="simple">10.1093/bioinformatics/bti475</ext-link></comment> <object-id pub-id-type="pmid">15860559</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leitner</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Mardis</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Krallinger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cesareni</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Hirschman</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Valencia</surname> <given-names>A</given-names></name>. <article-title>An overview of BioCreative II. 5</article-title>. <source>IEEE/ACM Trans Comput Biol Bioinform</source>. <year>2010</year>;<volume>7</volume>(<issue>3</issue>):<fpage>385</fpage>–<lpage>99</lpage>. <object-id pub-id-type="pmid">20704011</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Christiansen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Baumgartner</surname> <given-names>WA</given-names></name>, <name name-style="western"><surname>Verspoor</surname> <given-names>K</given-names></name>. <article-title>BioLemmatizer: a lemmatization tool for morphological processing of biomedical text</article-title>. <source>Journal of biomedical semantics</source>. <year>2012</year>;<volume>3</volume>(<issue>1</issue>):<fpage>1</fpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref023"><label>23</label><mixed-citation publication-type="other" xlink:type="simple">Sun L, Korhonen A, editors. Improving verb clustering with automatically acquired selectional preferences. Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing: Volume 2-Volume 2; 2009: Association for Computational Linguistics.</mixed-citation></ref>
+<ref id="pone.0173132.ref024"><label>24</label><mixed-citation publication-type="other" xlink:type="simple">UNEP. Global Monitoring Plan for Persistent Organic Pollutants under the Stockholm Convention article 16 on effectiveness evaluation. 2nd Regional Monitoring Report for Western Europe and Others Group (WEOG) Region, Annex 2. 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://chm.pops.int/Implementation/GlobalMonitoringPlan/MonitoringReports/tabid/525/Default.aspx" xlink:type="simple">http://chm.pops.int/Implementation/GlobalMonitoringPlan/MonitoringReports/tabid/525/Default.aspx</ext-link></mixed-citation></ref>
+<ref id="pone.0173132.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gasull</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bosch de Basea</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Puigdomenech</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Pumarega</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Porta</surname> <given-names>M</given-names></name>. <article-title>Empirical analyses of the influence of diet on human concentrations of persistent organic pollutants: a systematic review of all studies conducted in Spain</article-title>. <source>Environ Int</source>. <year>2011</year>;<volume>37</volume>(<issue>7</issue>):<fpage>1226</fpage>–<lpage>35</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.envint.2011.05.008" xlink:type="simple">10.1016/j.envint.2011.05.008</ext-link></comment> <object-id pub-id-type="pmid">21683445</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref026"><label>26</label><mixed-citation publication-type="other" xlink:type="simple">IPCS. Environmental Health Criteria 195 Hexachlorobenzene. Geneva; 1997. Available: <ext-link ext-link-type="uri" xlink:href="http://www.inchem.org/documents/ehc/ehc/ehc195.htm" xlink:type="simple">http://www.inchem.org/documents/ehc/ehc/ehc195.htm</ext-link></mixed-citation></ref>
+<ref id="pone.0173132.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>EFSA</collab>. <article-title>Scientific Opinion on Lead in Food. EFSA Panel on Contaminants in the Food Chain (CONTAM)</article-title>. <source>EFSA Journal</source>. <year>2010</year>;<volume>8</volume>(<issue>4</issue>):<fpage>1570</fpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bergdahl</surname> <given-names>IA</given-names></name>, <name name-style="western"><surname>Skerfving</surname> <given-names>S</given-names></name>. <article-title>Biomonitoring of Lead Exposure—Alternatives to Blood</article-title>. <source>Journal of Toxicology and Environmental Health, Part A</source>. <year>2008</year>;<volume>71</volume>(<issue>18</issue>):<fpage>1235</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sharma</surname> <given-names>VK</given-names></name>, <name name-style="western"><surname>Anquandah</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Yngard</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fekete</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bouzek</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Nonylphenol, octylphenol, and bisphenol-A in the aquatic environment: a review on occurrence, fate, and treatment</article-title>. <source>J Environ Sci Health A Tox Hazard Subst Environ Eng</source>. <year>2009</year>;<volume>44</volume>(<issue>5</issue>):<fpage>423</fpage>–<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/10934520902719704" xlink:type="simple">10.1080/10934520902719704</ext-link></comment> <object-id pub-id-type="pmid">19241257</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Renner</surname> <given-names>R</given-names></name>. <article-title>European bans on surfactant trigger transatlantic debate</article-title>. <source>Environ Sci Technol</source>. <year>1997</year>;<volume>31</volume>(<issue>7</issue>):<fpage>316A</fpage>–<lpage>20A</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/es972366q" xlink:type="simple">10.1021/es972366q</ext-link></comment> <object-id pub-id-type="pmid">21650741</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Asimakopoulos</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Thomaidis</surname> <given-names>NS</given-names></name>, <name name-style="western"><surname>Koupparis</surname> <given-names>MA</given-names></name>. <article-title>Recent trends in biomonitoring of bisphenol A, 4-t-octylphenol, and 4-nonylphenol</article-title>. <source>Toxicol Lett</source>. <year>2012</year>;<volume>210</volume>(<issue>2</issue>):<fpage>141</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.toxlet.2011.07.032" xlink:type="simple">10.1016/j.toxlet.2011.07.032</ext-link></comment> <object-id pub-id-type="pmid">21888958</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frederiksen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Skakkebaek</surname> <given-names>NE</given-names></name>, <name name-style="western"><surname>Andersson</surname> <given-names>AM</given-names></name>. <article-title>Metabolism of phthalates in humans</article-title>. <source>Mol Nutr Food Res</source>. <year>2007</year>;<volume>51</volume>(<issue>7</issue>):<fpage>899</fpage>–<lpage>911</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/mnfr.200600243" xlink:type="simple">10.1002/mnfr.200600243</ext-link></comment> <object-id pub-id-type="pmid">17604388</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wittassek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Koch</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Angerer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bruning</surname> <given-names>T</given-names></name>. <article-title>Assessing exposure to phthalates—the human biomonitoring approach</article-title>. <source>Mol Nutr Food Res</source>. <year>2011</year>;<volume>55</volume>(<issue>1</issue>):<fpage>7</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/mnfr.201000121" xlink:type="simple">10.1002/mnfr.201000121</ext-link></comment> <object-id pub-id-type="pmid">20564479</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Janjua</surname> <given-names>NR</given-names></name>, <name name-style="western"><surname>Frederiksen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Skakkebaek</surname> <given-names>NE</given-names></name>, <name name-style="western"><surname>Wulf</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Andersson</surname> <given-names>AM</given-names></name>. <article-title>Urinary excretion of phthalates and paraben after repeated whole-body topical application in humans</article-title>. <source>Int J Androl</source>. <year>2008</year>;<volume>31</volume>(<issue>2</issue>):<fpage>118</fpage>–<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2605.2007.00841.x" xlink:type="simple">10.1111/j.1365-2605.2007.00841.x</ext-link></comment> <object-id pub-id-type="pmid">18194284</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wittassek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Angerer</surname> <given-names>J</given-names></name>. <article-title>Phthalates: metabolism and exposure</article-title>. <source>Int J Androl</source>. <year>2008</year>;<volume>31</volume>(<issue>2</issue>):<fpage>131</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2605.2007.00837.x" xlink:type="simple">10.1111/j.1365-2605.2007.00837.x</ext-link></comment> <object-id pub-id-type="pmid">18070048</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wormuth</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Scheringer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vollenweider</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hungerbuhler</surname> <given-names>K</given-names></name>. <article-title>What are the sources of exposure to eight frequently used phthalic acid esters in Europeans?</article-title> <source>Risk Anal</source>. <year>2006</year>;<volume>26</volume>(<issue>3</issue>):<fpage>803</fpage>–<lpage>24</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1539-6924.2006.00770.x" xlink:type="simple">10.1111/j.1539-6924.2006.00770.x</ext-link></comment> <object-id pub-id-type="pmid">16834635</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref037"><label>37</label><mixed-citation publication-type="other" xlink:type="simple">KEMI (Swedish Chemicals Agency). Phthalates which are toxic for reproduction and endocrine-disrupting–proposals for a phase-out in Sweden. Report 4/15. Stockholm; 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://www.kemi.se/en" xlink:type="simple">http://www.kemi.se/en</ext-link></mixed-citation></ref>
+<ref id="pone.0173132.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fleuren</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Alkema</surname> <given-names>W</given-names></name>. <article-title>Application of text mining in the biomedical domain</article-title>. <source>Methods</source>. <year>2015</year>;<volume>74</volume>:<fpage>97</fpage>–<lpage>106</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ymeth.2015.01.015" xlink:type="simple">10.1016/j.ymeth.2015.01.015</ext-link></comment> <object-id pub-id-type="pmid">25641519</object-id></mixed-citation></ref>
+<ref id="pone.0173132.ref039"><label>39</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Joachims</surname> <given-names>T</given-names></name>. <year>2002</year>. <source>Learning to Classify Text Using Support Vector Machines: Methods, Theory and Algorithms</source>. <publisher-name>Kluwer Academic Publishers</publisher-name>, <publisher-loc>Norwell, MA, USA</publisher-loc>.</mixed-citation></ref>
+<ref id="pone.0173132.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sebastiani</surname> <given-names>F.</given-names></name> <article-title>Machine learning in automated text categorization</article-title>. <source>ACM computing surveys (CSUR)</source> <year>2002</year>;<volume>34</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>47</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref041"><label>41</label><mixed-citation publication-type="other" xlink:type="simple">Le Q, Mikolov T. Distributed Representations of Sentences and Documents. 2014. In ICML Vol. 14, pp.1188-1196.</mixed-citation></ref>
+<ref id="pone.0173132.ref042"><label>42</label><mixed-citation publication-type="other" xlink:type="simple">Baker S, Kiela D, Korhonen A. Robust Text Classification for Sparsely Labelled Data Using Multi-level Embeddings. 2016. To appear in Proceedings of COLING.</mixed-citation></ref>
+<ref id="pone.0173132.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davis</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Grondin</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Sciaky</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>McMorran</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>The Comparative Toxicogenomics Database: update 2017</article-title>. <source>Nucleic Acids Res</source>. <year>2016</year>. [Epub ahead of print]</mixed-citation></ref>
+<ref id="pone.0173132.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mattingly</surname> <given-names>C J</given-names></name>, <name name-style="western"><surname>McKone</surname> <given-names>T E</given-names></name>, <name name-style="western"><surname>Callahan</surname> <given-names>M A</given-names></name>, <name name-style="western"><surname>Blake</surname> <given-names>J A</given-names></name>, <name name-style="western"><surname>Hubal</surname> <given-names>E A C</given-names></name>. <article-title>Providing the Missing Link: the Exposure Science Ontology ExO</article-title>. <source>Environmental Science &amp; Technology</source> <year>2012</year>;<volume>46</volume>(<issue>6</issue>):<fpage>3046</fpage>–<lpage>305338</lpage>.</mixed-citation></ref>
+<ref id="pone.0173132.ref045"><label>45</label><mixed-citation publication-type="book" xlink:type="simple"><collab>IPCS</collab>. <source>Environmental Health Criteria 214: Human exposure assessment</source>. <publisher-loc>Geneva</publisher-loc>; <publisher-name>World Health Organization</publisher-name>; <year>2000</year>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.inchem.org/documents/ehc/ehc/ehc214.htm#SectionNumber:1.1" xlink:type="simple">http://www.inchem.org/documents/ehc/ehc/ehc214.htm#SectionNumber:1.1</ext-link></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

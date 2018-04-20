@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0195619</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-42786</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Maternal health</subject><subj-group><subject>Breast feeding</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pediatrics</subject><subj-group><subject>Neonatology</subject><subj-group><subject>Breast feeding</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Age groups</subject><subj-group><subject>Children</subject><subj-group><subject>Infants</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Families</subject><subj-group><subject>Children</subject><subj-group><subject>Infants</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Maternal health</subject><subj-group><subject>Pregnancy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Obstetrics and gynecology</subject><subj-group><subject>Pregnancy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Socioeconomic aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Socioeconomic aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pediatrics</subject><subj-group><subject>Child health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Child health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Women's health</subject><subj-group><subject>Maternal health</subject><subj-group><subject>Antenatal care</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Families</subject><subj-group><subject>Mothers</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Participation of pregnant women in a community-based nutrition program in Mumbai's informal settlements: Effect on exclusive breastfeeding practices</article-title>
+<alt-title alt-title-type="running-head">Exclusive breastfeeding in urban informal settlements of India</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8518-3114</contrib-id>
+<name name-style="western">
+<surname>Chanani</surname>
+<given-names>Sheila</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Waingankar</surname>
+<given-names>Anagha</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Shah More</surname>
+<given-names>Neena</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Pantvaidya</surname>
+<given-names>Shanti</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Fernandez</surname>
+<given-names>Armida</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Jayaraman</surname>
+<given-names>Anuja</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Society for Nutrition, Education and Health Action, Mumbai, India</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Cardoso</surname>
+<given-names>Marly Augusto</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universidade de Sao Paulo, BRAZIL</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>All authors are employed by SNEHA. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">sheila.chanani@gmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>4</month>
+<year>2018</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2018</year>
+</pub-date>
+<volume>13</volume>
+<issue>4</issue>
+<elocation-id>e0195619</elocation-id>
+<history>
+<date date-type="received">
+<day>6</day>
+<month>12</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>25</day>
+<month>3</month>
+<year>2018</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2018</copyright-year>
+<copyright-holder>Chanani et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0195619"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>In urban Maharashtra, India, approximately half of mothers exclusively breastfeed. For children residing in informal settlements of Mumbai, this study examines factors associated with exclusive breastfeeding, and whether exclusive breastfeeding, in a community-based nutrition program to prevent and treat wasting among children under age three, is associated with enrolment during the mother’s pregnancy.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>The nutrition program conducted a cross-sectional endline survey (October-December 2015) of caregivers in intervention areas. Factors associated with exclusive breastfeeding for infants under six months of age were explored using multi-level logistic regressions. Additionally, program surveillance data collected during home-based counselling visits documented breastfeeding practices for children under six months of age. Using the surveillance data (January 2014-March 2016), exclusive breastfeeding status was regressed adjusting for child, maternal and socioeconomic characteristics, and whether the child was enrolled in the program in utero or after birth.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>The community-based endline survey included 888 mothers of infants. Mothers who received the nutrition program home visits or attended group counselling sessions were more likely to exclusively breastfeed (adjusted odds ratio 1.67, 95% CI 1.16, 2.41). Having a normal weight-for-height z-score (adjusted odds ratio 1.57, 95% CI 1.00, 2.45) was associated positively with exclusive breastfeeding. As expected, being an older infant aged three to five months (adjusted odds ratio 0.34, 95% CI 0.25, 0.48) and receiving a prelacteal feed after birth (adjusted odds ratio 0.57, 95% CI 0.41, 0.80) were associated with lower odds of exclusively breastfeeding. Surveillance data (N = 3420) indicate that infants enrolled in utero have significantly higher odds of being exclusively breastfed (adjusted odds ratio 1.55, 95% CI 1.30, 1.84) than infants enrolled after birth.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Prenatal enrolment in community-based programs working on child nutrition in urban informal settlements of India can improve exclusive breastfeeding practices.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Forbes Marshall Foundation</institution>
+</funding-source>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Quadrivium Foundation</institution>
+</funding-source>
+</award-group>
+<funding-statement>Funding for analysis, interpretation of data, and dissemination of program findings came from Forbes Marshall Foundation and Quadrivium Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Globally, India has the largest number of malnourished children [<xref ref-type="bibr" rid="pone.0195619.ref001">1</xref>] and child deaths [<xref ref-type="bibr" rid="pone.0195619.ref002">2</xref>]. The 2011 census estimated that over 8 million children, aged zero to six years, are residing in informal settlements of India [<xref ref-type="bibr" rid="pone.0195619.ref003">3</xref>]. Children living in urban informal settlements experience low breastfeeding rates and high levels of malnutrition; they are vulnerable to gastrointestinal and other infections due to living in overcrowded spaces that lack adequate sanitation and waste management [<xref ref-type="bibr" rid="pone.0195619.ref004">4</xref>].</p>
+<p>Benefits from exclusively breastfeeding infants under six months of age range from lower rates of infection and morbidity in infancy to longer term benefits in cognitive capacity [<xref ref-type="bibr" rid="pone.0195619.ref005">5</xref>]. Breastfeeding is a vital strategy in protecting young children from diarrhoea [<xref ref-type="bibr" rid="pone.0195619.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0195619.ref007">7</xref>], a leading cause of poor nutritional status and death among infants and children [<xref ref-type="bibr" rid="pone.0195619.ref008">8</xref>]. In 2017, an estimated 99,499 child deaths due to diarrhoea and pneumonia in India could have been prevented through appropriate breastfeeding practices [<xref ref-type="bibr" rid="pone.0195619.ref009">9</xref>]. Thus, exclusive breastfeeding remains one of the most cost-effective methods for saving infants at large-scale [<xref ref-type="bibr" rid="pone.0195619.ref010">10</xref>–<xref ref-type="bibr" rid="pone.0195619.ref012">12</xref>].</p>
+<p>Exclusive breastfeeding practices in urban areas are poorer than rural areas; in recent national surveys 52.1 percent of urban infants under six months of age were exclusively breastfed as compared with 56.0 percent of rural children [<xref ref-type="bibr" rid="pone.0195619.ref013">13</xref>]. In urban Maharashtra, exclusive breastfeeding rates are similarly low at 51.3 percent, as compared to 60.6 percent of rural children [<xref ref-type="bibr" rid="pone.0195619.ref014">14</xref>].</p>
+<p>Most studies on exclusive breastfeeding in India use national-level data; there is little evidence focusing specifically on the needs of infants residing in urban informal settlements [<xref ref-type="bibr" rid="pone.0195619.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0195619.ref019">19</xref>]. In these studies, factors associated with exclusive breastfeeding vary across regions and type of residency (urban versus rural). Associated factors for children include: age, gender, birth order, birthweight, current weight, antenatal care (ANC), breastfeeding promotion by a health worker, type and location of delivery, timing of first feed, use of prelacteal feeds, and immunization status. Associated maternal characteristics include: age, education, literacy, employment status, duration of pregnancy, birth intervals, and mother’s height. At the socioeconomic level, associated factors with exclusive breastfeeding include religion and economic status.</p>
+<p>Community Management of Acute Malnutrition (CMAM) is a high-impact intervention that relies on community outreach to identify children with severe acute malnutrition (SAM), outpatient management of SAM cases without medical complications, and inpatient management of complicated cases [<xref ref-type="bibr" rid="pone.0195619.ref020">20</xref>]. Along with case-management of children screened as SAM or with moderate acute malnutrition (MAM), the nutrition program in this study expanded the scope of a typical CMAM approach to include a stronger prevention component by enrolling pregnant women and addressing feeding practices for all infants in the community under six months of age. This critical age group can be missed out in CMAM programs which focus on children aged six to 59 months of age [<xref ref-type="bibr" rid="pone.0195619.ref021">21</xref>]. The WHO recommends that child health interventions can optimally improve infant and child feeding practices through a 1000 day approach—targeting children from conception through the first two years of life [<xref ref-type="bibr" rid="pone.0195619.ref022">22</xref>]. The combined approach of prenatal and early-life intervention can better facilitate the promotion of appropriate infant feeding practices and prevent early abandonment of breastfeeding [<xref ref-type="bibr" rid="pone.0195619.ref023">23</xref>].</p>
+<p>This study contributes to the limited evidence on delivery of breastfeeding and child nutrition interventions at scale [<xref ref-type="bibr" rid="pone.0195619.ref024">24</xref>–<xref ref-type="bibr" rid="pone.0195619.ref026">26</xref>] in India. Large-scale operational research on children from conception to two years of age is essential to achieve national child mortality targets [<xref ref-type="bibr" rid="pone.0195619.ref027">27</xref>]. The objectives of the study are: 1) to examine factors associated with exclusive breastfeeding practices among infants under six months of age residing in urban informal settlements of Mumbai, 2) to explore the effectiveness of enrolling pregnant women in a community-based child nutrition program on improving exclusive breastfeeding practices.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec007">
+<title>Study setting, program description and participants</title>
+<p>Society for Nutrition, Education and Health Action (SNEHA), a Mumbai-based non-profit organization working in urban informal settlements, ran the adapted CMAM program from November 2011 through March 2016 in the urban informal settlements of Dharavi, Mumbai. Dharavi, one of the largest informal settlements in Asia, has an estimated population of 750,000 [<xref ref-type="bibr" rid="pone.0195619.ref028">28</xref>] to one million [<xref ref-type="bibr" rid="pone.0195619.ref029">29</xref>] residents. According to UN Habitat criteria, Dharavi is classified as a “slum” due to inadequate access to safe water and sanitation, poor structural quality of housing, and overcrowding and insecure residential status [<xref ref-type="bibr" rid="pone.0195619.ref029">29</xref>].</p>
+<p>SNEHA implemented the nutrition program in partnership with Integrated Child Development Services (ICDS), the largest community-based government welfare program to monitor and support child growth in India. ICDS functions through a network of childcare centres called Anganwadi Centres—one centre per 1000 population provides non-formal preschool activities, supplementary nutrition, growth monitoring to track underweight children, health and nutrition education, and health referral services. The SNEHA nutrition program also collaborated with the Municipal Corporation of Greater Mumbai (MCGM), which has a network of local public health facilities that include tertiary hospitals, maternity hospitals, and community-level dispensaries and health posts.</p>
+<p>The nutrition program covered 300 Anganwadi Centres, an estimated population of 300,000, which encompasses the entire ICDS administrative area of Dharavi. The program was delivered in phases—the first 150 centres served as pilot areas to test out varying iterations of the SNEHA model, and the last 150 centres functioned as the final model to be scaled and evaluated.</p>
+<p>The primary goal of the program was a reduction in wasting prevalence among children under age three at the community-level. Prior to the baseline, SNEHA Community health workers (CHWs) worked in collaboration with ICDS to conduct a census house listing, identifying all pregnant women and children under age three in the intervention areas. SNEHA CHWs screened children for their wasting status and collected basic socioeconomic information. Throughout the intervention, SNEHA CHWs continuously identified new pregnancies, new migrant pregnant women, and missed pregnancies, as some women did not disclose their pregnancies until their second trimester. They also tracked newly married couples and couples with a single child who might be considering having a child.</p>
+<p>Key activities of the nutrition program included: monthly growth monitoring conducted jointly with ICDS at the Anganwadi Centres; home-based counselling on feeding and care practices for priority groups (malnourished children, children under the age of six months, pregnant women); referrals to public health care facilities for treatment of illnesses and immunizations; access to medical assessments in community-based paediatric health camps; provision of antibiotics and locally produced ready-to-use food supplements; group activities for caregivers and community events for sensitization to child malnutrition; training of ICDS CHWs and supervisors to improve government service delivery; and convergence workshops and monthly meetings with ICDS and MCGM to improve coordination (<xref ref-type="fig" rid="pone.0195619.g001">Fig 1</xref>).</p>
+<fig id="pone.0195619.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0195619.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>SNEHA program partnerships and key activities.</title>
+<p>Abbreviations: RUTF, Ready-to-use therapeutic food; SNEHA, Society for Nutrition, Education and Health Action.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.g001" xlink:type="simple"/>
+</fig>
+<sec id="sec008">
+<title>Program activities for promotion of exclusive breastfeeding</title>
+<p>SNEHA CHWs provided home-based counselling visits to the pregnant women, with increasing frequency as the pregnancy advanced. During the home visits, SNEHA CHWs encouraged women to register for delivery and access early ANC. They provided information on the possible danger signs during pregnancy for which they should seek immediate medical care; these include leaking water, the baby not moving, continuous bleeding from vagina, severe abdominal pain prior to the eighth month, severe headaches and blurry vision, convulsions or loss of consciousness, fever, and oedema on their feet. SNEHA CHWs individually counselled women on preparation for institutional delivery, appropriate postnatal care, the importance of iron and folic acid for the baby’s growth, a nutritious diet, and rest.</p>
+<p>A critical component of the counselling was to discuss the importance of breastfeeding practices such as initiation of breastfeeding within one hour of delivery, the benefits of colostrum, exclusive breastfeeding and avoidance of any prelacteal feeds. These monthly home-based counselling visits continued from pregnancy through the birth of the child until the child was six months old. Postpartum home visit frequency was higher for premature, low birthweight, and malnourished children. SNEHA CHWs counselled lactating mothers on breastfeeding, correct positioning, common problems and remedies, and the importance of exclusive breastfeeding. In addition to home visits, SNEHA CHWs also organized group meetings and baby shower events for pregnant women for peer sharing and learning.</p>
+</sec>
+</sec>
+<sec id="sec009">
+<title>Data collection</title>
+<p>To examine factors associated with exclusive breastfeeding practices this study uses the nutrition program endline evaluation data. SNEHA oversaw the implementation of a cross-sectional community-based survey across all 300 Anganwadi Centres from October through December 2015. Primary caregivers—typically mothers—of children under three were interviewed on: socioeconomic status (education, occupation, asset ownership, housing status); household and environmental sanitary conditions (water supply and treatment, toilet ownership); infant and young child feeding practices (IYCF); migration patterns; illness prevalence in children (diarrhoea and acute respiratory infections); child anthropometry (weight and height); and utilization of the SNEHA nutrition program and government services for maternal and child health (ICDS, MCGM). The 2012 Progress out of Poverty Index (PPI) was included to assess the likelihood that a household was living below specific poverty lines. The PPI incorporates household characteristics (number of children residing in household, type of fuel, father's education, and occupation) and asset ownership (10 small and large assets).</p>
+<p>This study also examines active program surveillance data, collected by SNEHA CHWs, to assess the effectiveness of enrolling pregnant women in improving exclusive breastfeeding practices. At the time of enrolment of a pregnant woman, basic socioeconomic information were collected, along with her last date of menstruation and her access to health care services. Subsequently after the birth of the child, SNEHA CHWs made home-based counselling visits until the infant was six months of age and recorded information on the breastfeeding status of the child.</p>
+<p>All data were collected in CommCare (Dimagi, USA), a mobile-based application designed for community health workers. The CommCare platform is open-source and enables data collection and storage on a web server using a standard mobile network. During the community-based endline survey, team supervisors reviewed all submissions before uploading to the server and conducted random crosschecks of information collected. For the surveillance data, SNEHA CHW supervisors crosschecked home visit submissions. Supervisors went to the homes of mothers to check on quality of counselling provided by the CHW and the accuracy of data submitted.</p>
+<sec id="sec010">
+<title>Sample size and sampling technique</title>
+<p>Sampling for the community-based endline survey varied according to intervention phase. At the time of the evaluation, pilot intervention areas were receiving a limited intervention with reduced staff. These areas were staffed with approximately half the number of SNEHA CHWs to explore a transition of the nutrition program activities over to ICDS. Thus, those areas were sampled with the objective of getting prevalence estimates of wasting as an indicator of sustainability with the gradual handover to government partners.</p>
+<p>The sample size for the scale-out intervention areas was set with the primary objective of measuring a 25 percent drop in the prevalence of wasting from baseline to endline. Assumptions for sample size calculations were 15 percent prevalence of wasting at baseline, intra-class correlation (ICC) (.04), alpha (.05) two-sided, and power (.80). For the scale-out intervention areas, each Anganwadi Centre had a target of 23 respondents for a total target sample of 3,450 respondents across 150 centres. In the pilot areas, each centre had a target of six or nine respondents, totalling a target sample of 1,040 respondents across 150 centres. Using the intervention house listing data, a household in each centre was randomly selected as the starting point to employ a modified systematic sampling approach. Investigators spun a pen to determine direction and continued to interview every third household within the boundaries of that centre service area until the target number of caregivers were identified and agreed to be interviewed [<xref ref-type="bibr" rid="pone.0195619.ref030">30</xref>]. If a caregiver had more than one child under three, the investigator collected information on the youngest child.</p>
+<p>For the analysis of program surveillance data, home visit reports submitted by SNEHA CHWs, from January 2014 through March 2016, for infants under six months of age in the scale-out intervention areas are included. The reported breastfeeding practices from the most recent home visit given to each child was retained along with the total number of home visits received as of March 2016.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Statistical analysis</title>
+<p>Following a similar analytical strategy as employed by Setegn et al. [<xref ref-type="bibr" rid="pone.0195619.ref031">31</xref>] and Hunegnaw et al. [<xref ref-type="bibr" rid="pone.0195619.ref032">32</xref>], logistic regression models were estimated to examine associations of the dependent variable, exclusive breastfeeding, with child, mother and socioeconomic characteristics. Multi-level random intercept logistic regressions were estimated controlling for correlation within the Anganwadi Centre clusters. For each characteristic included in the multivariable models the crude odds ratio are presented along with the adjusted odds ratio (AOR) model and 95% confidence intervals (CI). All analyses were conducted in STATA 15.0 (StataCorp, College Station, TX).</p>
+<sec id="sec012">
+<title>Dependent variable</title>
+<p>In the community-based endline survey, the outcome of exclusive breastfeeding was measured through a series of questions asked to the mother on what the infant had consumed in the previous 24 hours. Children were coded as exclusively breastfeeding if they reported currently (based on the 24-hour recall period) drinking breastmilk, no plain water, no infant formula, no other form of milk, no yoghurt-based drinks (eg <italic>lassi</italic> or <italic>chaas</italic>), no fruit juice, no clear broth, no tea or coffee, no soda, and no other liquids, solids or semi-solids. Any child that reported zero night and day feeds of breastmilk was coded as not exclusively breastfed.</p>
+<p>In the surveillance data children were coded as exclusively breastfeeding if they reported currently (based on the 24-hour recall period) drinking breastmilk, no other milk or milk-based products, no other liquids, and no other solids or semi-solids.</p>
+</sec>
+<sec id="sec013">
+<title>Independent variables</title>
+<p>For the regression models using the community-based endline survey, bivariate associations of exclusive breastfeeding with independent variables were explored using Pearson chi-square for categorical variables. Comparison tests were adjusted for the cluster-survey design using the STATA “svy” commands. ICC coefficients were calculated using STATA post-estimation commands.</p>
+<p>Independent variables included in the final regression model using the community-based survey data had a p-value less than 0.20 in the bivariate analysis. These include: child age; gender; birth order; weight-for-height (wasting) nutritional status; whether the infant was delivered in Mumbai or outside the city; whether the infant was given a prelacteal feed; whether the mother received a SNEHA home visit or attended a SNEHA group session; location of antenatal care (ANC) (No ANC, Private Facility, Public Facility); type of birth facility (Home, Public Facility, Private Facility); mother’s employment status; and household PPI (poverty index) likelihood score. Additional explanatory variables from the literature on determinants of exclusive breastfeeding in India (advice from a community health worker, maternal education, maternal body mass index, home ownership, and religion) were also included in the final model.</p>
+<p>For the surveillance data regression model, independent variables included basic socioeconomic variables collected for each pregnant woman or child at the time of screening, along with a dummy variable for children whose mothers enrolled into the program while the child was in utero.</p>
+<p>A child is wasted if her weight-for-height Z-score (WHZ) is less than two standard deviations (SD) below the median of the WHO 2006 growth standards reference population and overweight if her WHZ is greater than two SD above the median. Normal WHZ status is less than or equal to 2 SD above the median and greater than or equal to -2 SD above the median. WHZ was calculated using Emergency Nutrition Assessment (ENA) software. WHZ for children with outlier values (&gt; 5 SD or &lt; −5 SD) or significant discrepancies in their two length or weight measurements were set to missing. Public health facilities include municipal maternity hospitals, tertiary hospitals, and health posts. Private facilities include private hospitals, private medical doctors, and any other non-government individual medical practitioner (licensed and unlicensed).</p>
+</sec>
+</sec>
+<sec id="sec014">
+<title>Ethical statement</title>
+<p>The study received ethical approval from the Bandra Holy Family Medical Research Society, Mumbai. Respondents in the community-based endline survey gave their written informed consent prior to participation. Surveillance data presented are part of implementation data and the ethics committee approved use of this data to study program impact and effectiveness.</p>
+</sec>
+</sec>
+<sec id="sec015" sec-type="results">
+<title>Results</title>
+<p>Across the 300 Anganwadi Centres, 4,527 caregivers with children under age three were sampled during the community-based survey conducted between October and December 2015. Of these 888 (20 percent) were mothers with a child under the age of six months. In the sample of children under six months of age, 64.4 (95% CI 61.0, 67.8) percent were exclusively breastfeeding.</p>
+<p><xref ref-type="table" rid="pone.0195619.t001">Table 1</xref> presents descriptive frequencies and proportions for characteristics of the respondents and exclusive breastfeeding rates for those characteristics. Approximately 96 percent of mothers reported that they were not working for income and 14.5 percent were underweight with a body mass index (BMI) lower than 18.5. Over 18 percent of the mothers reported they were illiterate or had not received any education beyond the 5<sup>th</sup> grade. Nearly 13 percent of the infants were wasted <xref ref-type="table" rid="pone.0195619.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0195619.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0195619.t001</object-id>
+<label>Table 1</label> <caption><title>Child, maternal, and socioeconomic characteristics and rates of exclusive breastfeeding by characteristic of infants under six months of age in informal settlements of Mumbai, India.</title></caption>
+<alternatives>
+<graphic id="pone.0195619.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#EEECE1"> </th>
+<th align="center" colspan="2" style="background-color:#EEECE1">All children less than 6 months of age</th>
+<th align="center" colspan="2" style="background-color:#EEECE1">Exclusive Breastfeeding—Yes</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">N = 888</th>
+<th align="center">%</th>
+<th align="center">N = 572</th>
+<th align="center">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Child Characteristics</italic></bold></td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"/>
+<td align="center" style="background-color:#EEECE1"/>
+</tr>
+<tr>
+<td align="left"><bold>Exclusive Breastfeeding</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">572</td>
+<td align="center">64.4</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">316</td>
+<td align="center">35.6</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>Age</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Less than 3 months</bold></td>
+<td align="center">461</td>
+<td align="center">51.9</td>
+<td align="center">347</td>
+<td align="center">75.3<xref ref-type="table-fn" rid="t001fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    3–5 months</bold></td>
+<td align="center">427</td>
+<td align="center">48.1</td>
+<td align="center">225</td>
+<td align="center">52.7</td>
+</tr>
+<tr>
+<td align="left"><bold>Gender</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Female</bold></td>
+<td align="center">424</td>
+<td align="center">47.8</td>
+<td align="center">290</td>
+<td align="center">68.4<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    Male</bold></td>
+<td align="center">464</td>
+<td align="center">52.3</td>
+<td align="center">282</td>
+<td align="center">60.8</td>
+</tr>
+<tr>
+<td align="left"><bold>Birth Order</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    First</bold></td>
+<td align="center">326</td>
+<td align="center">36.7</td>
+<td align="center">198</td>
+<td align="center">60.7</td>
+</tr>
+<tr>
+<td align="left"><bold>    Second</bold></td>
+<td align="center">322</td>
+<td align="center">36.3</td>
+<td align="center">211</td>
+<td align="center">65.5</td>
+</tr>
+<tr>
+<td align="left"><bold>    Third</bold></td>
+<td align="center">151</td>
+<td align="center">17.0</td>
+<td align="center">104</td>
+<td align="center">68.9</td>
+</tr>
+<tr>
+<td align="left"><bold>    Fourth and above</bold></td>
+<td align="center">89</td>
+<td align="center">10.0</td>
+<td align="center">59</td>
+<td align="center">66.3</td>
+</tr>
+<tr>
+<td align="left"><bold>Weight for Height</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Wasting (&lt; -2SD)</bold></td>
+<td align="center">112</td>
+<td align="center">12.7</td>
+<td align="center">64</td>
+<td align="center">57.1</td>
+</tr>
+<tr>
+<td align="left"><bold>    Normal (-2SD to 2SD)</bold></td>
+<td align="center">754</td>
+<td align="center">85.6</td>
+<td align="center">494</td>
+<td align="center">65.5</td>
+</tr>
+<tr>
+<td align="left"><bold>    Overweight (&gt; 2SD)</bold></td>
+<td align="center">15</td>
+<td align="center">1.7</td>
+<td align="center">10</td>
+<td align="center">66.7</td>
+</tr>
+<tr>
+<td align="left"><bold>Child Born in Mumbai</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">764</td>
+<td align="center">86.6</td>
+<td align="center">506</td>
+<td align="center">66.2<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">118</td>
+<td align="center">13.4</td>
+<td align="center">66</td>
+<td align="center">55.9</td>
+</tr>
+<tr>
+<td align="left"><bold>Prelacteal Feed Given</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">298</td>
+<td align="center">33.8</td>
+<td align="center">163</td>
+<td align="center">54.7<xref ref-type="table-fn" rid="t001fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">584</td>
+<td align="center">66.2</td>
+<td align="center">409</td>
+<td align="center">70.0</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Maternal Characteristics</italic></bold></td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"/>
+<td align="center" style="background-color:#EEECE1"/>
+</tr>
+<tr>
+<td align="left" colspan="3"><bold>Breastfeeding Advice from ICDS CHW in Past Month</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">179</td>
+<td align="center">20.2</td>
+<td align="center">121</td>
+<td align="center">67.6</td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">709</td>
+<td align="center">79.8</td>
+<td align="center">451</td>
+<td align="center">63.6</td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold>Received SNEHA Home Visit or Attended SNEHA Group Session</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">659</td>
+<td align="center">74.2</td>
+<td align="center">440</td>
+<td align="center">66.8<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">229</td>
+<td align="center">25.8</td>
+<td align="center">132</td>
+<td align="center">57.6</td>
+</tr>
+<tr>
+<td align="left"><bold>Location of ANC</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    No ANC</bold></td>
+<td align="center">19</td>
+<td align="center">2.2</td>
+<td align="center">12</td>
+<td align="center">63.2<xref ref-type="table-fn" rid="t001fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    Public Facility</bold></td>
+<td align="center">475</td>
+<td align="center">53.9</td>
+<td align="center">335</td>
+<td align="center">70.5</td>
+</tr>
+<tr>
+<td align="left"><bold>    Private Facility</bold></td>
+<td align="center">388</td>
+<td align="center">44.0</td>
+<td align="center">225</td>
+<td align="center">58.0</td>
+</tr>
+<tr>
+<td align="left"><bold>Type of Birth Facility</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Home</bold></td>
+<td align="center">26</td>
+<td align="center">3.0</td>
+<td align="center">15</td>
+<td align="center">57.7<xref ref-type="table-fn" rid="t001fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    Public Facility</bold></td>
+<td align="center">522</td>
+<td align="center">59.3</td>
+<td align="center">374</td>
+<td align="center">71.7</td>
+</tr>
+<tr>
+<td align="left"><bold>    Private Facility</bold></td>
+<td align="center">333</td>
+<td align="center">37.8</td>
+<td align="center">183</td>
+<td align="center">55.0</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal Education</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Illiterate, Primary,     Informal</bold></td>
+<td align="center">167</td>
+<td align="center">18.8</td>
+<td align="center">110</td>
+<td align="center">65.9</td>
+</tr>
+<tr>
+<td align="left"><bold>    Secondary (5–10 grade)</bold></td>
+<td align="center">493</td>
+<td align="center">55.5</td>
+<td align="center">323</td>
+<td align="center">65.5</td>
+</tr>
+<tr>
+<td align="left"><bold>    Higher secondary (11 grade &amp; higher)</bold></td>
+<td align="center">228</td>
+<td align="center">25.7</td>
+<td align="center">139</td>
+<td align="center">61.0</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal Working Status</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Not working</bold></td>
+<td align="center">854</td>
+<td align="center">96.2</td>
+<td align="center">554</td>
+<td align="center">64.9</td>
+</tr>
+<tr>
+<td align="left"><bold>    Working</bold></td>
+<td align="center">34</td>
+<td align="center">3.8</td>
+<td align="center">18</td>
+<td align="center">52.9</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal BMI</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Underweight (&lt;18.5)</bold></td>
+<td align="center">127</td>
+<td align="center">14.5</td>
+<td align="center">85</td>
+<td align="center">66.9</td>
+</tr>
+<tr>
+<td align="left"><bold>    Healthy (18.5 to 25)</bold></td>
+<td align="center">489</td>
+<td align="center">55.9</td>
+<td align="center">325</td>
+<td align="center">66.5</td>
+</tr>
+<tr>
+<td align="left"><bold>    Overweight (&gt;25)</bold></td>
+<td align="center">259</td>
+<td align="center">29.6</td>
+<td align="center">157</td>
+<td align="center">60.6</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Socioeconomic Characteristics</italic></bold></td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"/>
+<td align="center" style="background-color:#EEECE1"/>
+</tr>
+<tr>
+<td align="left"><bold>Home Ownership</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">520</td>
+<td align="center">58.6</td>
+<td align="center">335</td>
+<td align="center">64.4</td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">368</td>
+<td align="center">41.4</td>
+<td align="center">237</td>
+<td align="center">64.4</td>
+</tr>
+<tr>
+<td align="left" colspan="5"><bold>PPI: Likelihood Below the $2.16/day/PPP Line</bold></td>
+</tr>
+<tr>
+<td align="left"><bold>    Less than 65%</bold></td>
+<td align="center">237</td>
+<td align="center">26.8</td>
+<td align="center">143</td>
+<td align="center">60.3</td>
+</tr>
+<tr>
+<td align="left"><bold>    65 up to 75%</bold></td>
+<td align="center">161</td>
+<td align="center">18.2</td>
+<td align="center">98</td>
+<td align="center">60.9</td>
+</tr>
+<tr>
+<td align="left"><bold>    75 up to 85%</bold></td>
+<td align="center">326</td>
+<td align="center">36.8</td>
+<td align="center">216</td>
+<td align="center">66.3</td>
+</tr>
+<tr>
+<td align="left"><bold>    85 up to 99%</bold></td>
+<td align="center">161</td>
+<td align="center">18.2</td>
+<td align="center">115</td>
+<td align="center">71.4</td>
+</tr>
+<tr>
+<td align="left"><bold>Religion</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Muslim</bold></td>
+<td align="center">404</td>
+<td align="center">45.5</td>
+<td align="center">259</td>
+<td align="center">64.1</td>
+</tr>
+<tr>
+<td align="left"><bold>    Hindu</bold></td>
+<td align="center">433</td>
+<td align="center">48.8</td>
+<td align="center">283</td>
+<td align="center">65.4</td>
+</tr>
+<tr>
+<td align="left"><bold>    Other</bold></td>
+<td align="center">51</td>
+<td align="center">5.7</td>
+<td align="center">30</td>
+<td align="center">58.8</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>ANC, Antenatal Care; BMI, Body Mass Index; CHW, Community Health Worker; ICDS, Integrated Child Development Services; PPI, Progress out of Poverty Index; PPP, Purchasing Power Parity; SD, Standard Deviation; SNEHA, Society for Nutrition, Education and Health Action. Pearson chi-square comparing exclusive breastfeeding status by characteristic</p></fn>
+<fn id="t001fn002"><p>*P-value: ≤0.05</p></fn>
+<fn id="t001fn003"><p>*** P-value: ≤0.001.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Younger infants less than three months of age had higher levels of exclusive breastfeeding (75.3 percent) as compared with the older infants aged three to five months (52.7 percent). Female infants also had higher levels of exclusive breastfeeding (68.4 percent) as compared with male infants (60.8 percent). Approximately 87 percent of the infants were born in Mumbai, and they reported higher rates of exclusive breastfeeding (66.2 percent) as compared to those born outside the city (55.9 percent). Nearly thirty-four percent of all mothers reported giving some form of prelacteal liquid in the first days after birth that was not breastmilk—those who gave prelacteals had lower levels of exclusive breastfeeding (54.7 percent) as compared to those who did not give any (70 percent). Approximately 20 percent of mothers received breastfeeding advice from a government health worker, and 74.2 percent of sampled mothers received home visits by a SNEHA CHW or attended a SNEHA group session. Mothers who reported getting these services from SNEHA had higher exclusive breastfeeding rates as compared with those who did not receive them (66.8 percent versus 57.6 percent).</p>
+<p>While the private sector plays an important role in urban informal settlements, women still sought ANC (53.9 percent) and delivered their babies (59.3 percent) in public health facilities. Receiving ANC in a public facility is associated with higher levels of exclusive breastfeeding (70.5 percent) as compared with private sector facilities (58.0 percent). Similarly, giving birth in a public facility is associated with higher rates of exclusive breastfeeding (71.7 percent) as compared to mothers who gave birth in private facilities (55.0 percent).</p>
+<p>Multi-level logistic regressions based on endline data indicate that having a normal weight-for-height status (AOR 1.57, 95% CI 1.00, 2.45), as compared with being wasted, and receiving a home visit from a SNEHA CHW or attending a SNEHA group session (AOR 1.67, 95% CI 1.16, 2.41) were associated with significantly higher odds of exclusive breastfeeding status. Being an older infant aged three to five months (AOR 0.34, 95% CI 0.25, 0.48), as compared to less than three months old, and receiving a prelacteal feed (AOR 0.57, 95% CI 0.41, 0.80) were significantly associated with lower odds of exclusively breastfeeding <xref ref-type="table" rid="pone.0195619.t002">Table 2</xref>. The ICC for the AOR model is 0.04, indicating a small clustering effect at the Anganwadi Centre level; this falls within the range observed in a community-based trial to improve maternal and child health in other informal settlements of Mumbai [<xref ref-type="bibr" rid="pone.0195619.ref033">33</xref>].</p>
+<table-wrap id="pone.0195619.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0195619.t002</object-id>
+<label>Table 2</label> <caption><title>Factors associated with exclusive breastfeeding for children under six months of age residing in informal settlements of Mumbai, India.</title></caption>
+<alternatives>
+<graphic id="pone.0195619.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#EEECE1">(N = 888)</th>
+<th align="center" style="background-color:#EEECE1">Crude Odds Ratio <break/>(95% CI)</th>
+<th align="center" style="background-color:#EEECE1">Adjusted Odds Ratio<xref ref-type="table-fn" rid="t002fn005"><sup>a</sup></xref><break/> (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Child Characteristics</italic></bold></td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"> </td>
+</tr>
+<tr>
+<td align="left"><bold>Child Age (3 to 5 months)</bold></td>
+<td align="left">0.35 (0.26–0.47)</td>
+<td align="left">0.34 (0.25–0.48)<xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Child Gender (Female)</bold></td>
+<td align="left">1.44 (1.07–1.92)</td>
+<td align="left">1.33 (0.97–1.82)</td>
+</tr>
+<tr>
+<td align="left"><bold>Birth Order</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    First</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Second</bold></td>
+<td align="left">1.23 (0.88–1.71)</td>
+<td align="left">1.17 (0.81–1.70)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Third</bold></td>
+<td align="left">1.41 (0.92–2.17)</td>
+<td align="left">1.21 (0.72–2.01)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Fourth and Above</bold></td>
+<td align="left">1.28 (0.77–2.13)</td>
+<td align="left">1.23 (0.64–2.35)</td>
+</tr>
+<tr>
+<td align="left"><bold>Weight for Height</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Wasting (&lt; -2SD)</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Normal (-2SD to 2SD)</bold></td>
+<td align="left">1.45 (0.95–2.21)</td>
+<td align="left">1.57 (1.00–2.45)<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    Overweight (&gt; 2SD)</bold></td>
+<td align="left">1.48 (0.45–4.81)</td>
+<td align="left">2.28 (0.60–8.66)</td>
+</tr>
+<tr>
+<td align="left"><bold>Child Born in Mumbai</bold></td>
+<td align="left">1.63 (1.07–2.47)</td>
+<td align="left">1.12 (0.69–1.82)</td>
+</tr>
+<tr>
+<td align="left"><bold>Prelacteal Feed Given</bold></td>
+<td align="left">0.52 (0.38–0.70)</td>
+<td align="left">0.57 (0.41–0.80)<xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Maternal Characteristics</italic></bold></td>
+<td align="center" style="background-color:#EEECE1"> </td>
+<td align="center" style="background-color:#EEECE1"> </td>
+</tr>
+<tr>
+<td align="left"><bold>Breastfeeding Advice from ICDS CHW in Past Month</bold></td>
+<td align="left">1.17 (0.81–1.68)</td>
+<td align="left">1.04 (0.69–1.56)</td>
+</tr>
+<tr>
+<td align="left"><bold>Received SNEHA Home Visit or Attended SNEHA Group Session</bold></td>
+<td align="left">1.50 (1.08–2.07)</td>
+<td align="left">1.67 (1.16–2.41)<xref ref-type="table-fn" rid="t002fn003">**</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Location of ANC</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    No ANC</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Public</bold></td>
+<td align="left">1.33 (0.49–3.60)</td>
+<td align="left">0.57 (0.18–1.75)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Private</bold></td>
+<td align="left">0.75 (0.27–2.03)</td>
+<td align="left">0.64 (0.21–1.98)</td>
+</tr>
+<tr>
+<td align="left"><bold>Location of Birth</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Home</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Public</bold></td>
+<td align="left">1.85 (0.81–4.25)</td>
+<td align="left">1.42 (0.53–3.80)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Private</bold></td>
+<td align="left">0.88 (0.38–2.05)</td>
+<td align="left">0.67 (0.24–1.86)</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal Education</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Illiterate, Primary, Informal</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Secondary (5–10 grade)</bold></td>
+<td align="left">0.97 (0.66–1.43)</td>
+<td align="left">0.98 (0.64–1.50)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Higher secondary (11 grade &amp; higher)</bold></td>
+<td align="left">0.80 (0.52–1.24)</td>
+<td align="left">1.15 (0.68–1.96)</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal Working Status—Not Working</bold></td>
+<td align="left">1.66 (0.81–3.42)</td>
+<td align="left">1.11 (0.46–2.64)</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal BMI</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Underweight (&lt;18.5)</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Healthy (18.5 to 25)</bold></td>
+<td align="left">0.99 (0.64–1.53)</td>
+<td align="left">0.87 (0.55–1.40)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Overweight (&gt;25)</bold></td>
+<td align="left">0.77 (0.48–1.22)</td>
+<td align="left">0.68 (0.41–1.15)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#EEECE1"><bold><italic>Socioeconomic Characteristics</italic></bold></td>
+<td align="left" style="background-color:#EEECE1"> </td>
+<td align="left" style="background-color:#EEECE1"> </td>
+</tr>
+<tr>
+<td align="left"><bold>Home Ownership</bold></td>
+<td align="left">1.00 (0.75–1.34)</td>
+<td align="left">1.05 (0.75–1.47)</td>
+</tr>
+<tr>
+<td align="left"><bold>PPI: Likelihood Below the $2.16/day/PPP Line</bold></td>
+<td align="left">2.65 (1.17–6.03)</td>
+<td align="left">1.17 (0.38–3.62)</td>
+</tr>
+<tr>
+<td align="left"><bold>Religion</bold></td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Muslim</bold></td>
+<td align="left">1.00</td>
+<td align="left">1.00</td>
+</tr>
+<tr>
+<td align="left"><bold>    Hindu</bold></td>
+<td align="left">1.05 (0.77–1.42)</td>
+<td align="left">1.04 (0.74–1.47)</td>
+</tr>
+<tr>
+<td align="left"><bold>    Other</bold></td>
+<td align="left">0.81 (0.43–1.52)</td>
+<td align="left">0.96 (0.48–1.94)</td>
+</tr>
+<tr>
+<td align="left"><bold>Intra-Class Correlation</bold></td>
+<td align="center">Null (.06)</td>
+<td align="center">0.04</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>ANC, Antenatal Care; BMI, Body Mass Index; CHW, Community Health Worker; ICDS, Integrated Child Development Services; PPI, Progress out of Poverty Index; PPP, Purchasing Power Parity; SD, Standard Deviation; SNEHA, Society for Nutrition, Education and Health Action. Level of significance for adjusted model</p></fn>
+<fn id="t002fn002"><p>*P-value: ≤0.05</p></fn>
+<fn id="t002fn003"><p>**P-value: ≤0.01</p></fn>
+<fn id="t002fn004"><p>*** P-value: ≤0.001.</p></fn>
+<fn id="t002fn005"><p><sup>a</sup>Adjusted model contains all variables in table (N = 869). Total sample size falls due to missing values generated primarily in removing WHZ outliers.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Program participants' characteristics from the program surveillance data are compared for children under six months of age monitored in utero to those enrolled into the program after birth. For all 3420 infants monitored in the program during the period of study, their last recorded breastfeeding status indicated that 70.3 percent (95% CI 67.2, 73.4) were exclusively breastfeeding. For infants enrolled in utero 76.0 percent (95% CI 72.5, 79.4) were exclusively breastfeeding as compared with 66.3 percent (95% CI 62.8, 70.0) for infants enrolled after birth. The children enrolled after birth are older, with approximately 95 percent in the three to five month age group, than children enrolled in utero, with 85 percent in the three to five month age group. Infants enrolled in utero also come from households with higher levels of home ownership (58.1 percent as compared with 53.8 percent) and lower likelihoods of poverty; 17.5 percent are in the highest likelihood range of poverty as compared with 29.4 percent for those enrolled after birth <xref ref-type="table" rid="pone.0195619.t003">Table 3</xref>.</p>
+<table-wrap id="pone.0195619.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0195619.t003</object-id>
+<label>Table 3</label> <caption><title>Child, maternal, and socioeconomic characteristics of infants by enrolment status in a community-based child nutrition program in informal settlements of Mumbai, India.</title></caption>
+<alternatives>
+<graphic id="pone.0195619.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#EEECE1">Characteristics</th>
+<th align="center" colspan="2" style="background-color:#EEECE1">All children less than 6 months of age (N = 3420)</th>
+<th align="center" colspan="2" style="background-color:#EEECE1">Enrolled after Birth (N = 2006)</th>
+<th align="center" colspan="2" style="background-color:#EEECE1">Enrolled in Utero<break/> (N = 1414)</th>
+</tr>
+<tr>
+<th align="left" style="background-color:#EEECE1"> </th>
+<th align="center" style="background-color:#EEECE1">N</th>
+<th align="center" style="background-color:#EEECE1">%</th>
+<th align="center" style="background-color:#EEECE1">N</th>
+<th align="center" style="background-color:#EEECE1">%</th>
+<th align="center" style="background-color:#EEECE1">N</th>
+<th align="center" style="background-color:#EEECE1">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2"><bold>Exclusive Breastfeeding</bold></td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">2,404</td>
+<td align="center">70.3</td>
+<td align="center">1,330</td>
+<td align="center">66.3</td>
+<td align="center">1,074</td>
+<td align="center">76.0<xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">1,016</td>
+<td align="center">29.7</td>
+<td align="center">676</td>
+<td align="center">33.7</td>
+<td align="center">340</td>
+<td align="center">24.0</td>
+</tr>
+<tr>
+<td align="left"><bold>Child Age</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Less than 3 months</bold></td>
+<td align="center">314</td>
+<td align="center">9.2</td>
+<td align="center">102</td>
+<td align="center">5.1</td>
+<td align="center">212</td>
+<td align="center">15.0<xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    3 to 5 months</bold></td>
+<td align="center">3,106</td>
+<td align="center">90.8</td>
+<td align="center">1,904</td>
+<td align="center">94.9</td>
+<td align="center">1,202</td>
+<td align="center">85.0</td>
+</tr>
+<tr>
+<td align="left"><bold>Child Gender</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Female</bold></td>
+<td align="center">1,713</td>
+<td align="center">50.1</td>
+<td align="center">1,017</td>
+<td align="center">50.7</td>
+<td align="center">696</td>
+<td align="center">49.2</td>
+</tr>
+<tr>
+<td align="left"><bold>    Male</bold></td>
+<td align="center">1,707</td>
+<td align="center">49.9</td>
+<td align="center">989</td>
+<td align="center">49.3</td>
+<td align="center">718</td>
+<td align="center">50.8</td>
+</tr>
+<tr>
+<td align="left" colspan="2"><bold>Maternal Working Status</bold></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Not Working</bold></td>
+<td align="center">3,290</td>
+<td align="center">96.3</td>
+<td align="center">1,937</td>
+<td align="center">96.7</td>
+<td align="center">1,353</td>
+<td align="center">95.7</td>
+</tr>
+<tr>
+<td align="left"><bold>    Working</bold></td>
+<td align="center">128</td>
+<td align="center">3.7</td>
+<td align="center">67</td>
+<td align="center">3.3</td>
+<td align="center">61</td>
+<td align="center">4.3</td>
+</tr>
+<tr>
+<td align="left"><bold>Home Ownership</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Yes</bold></td>
+<td align="center">1,901</td>
+<td align="center">55.6</td>
+<td align="center">1,079</td>
+<td align="center">53.8</td>
+<td align="center">822</td>
+<td align="center">58.1<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    No</bold></td>
+<td align="center">1,517</td>
+<td align="center">44.4</td>
+<td align="center">925</td>
+<td align="center">46.2</td>
+<td align="center">592</td>
+<td align="center">41.9</td>
+</tr>
+<tr>
+<td align="left" colspan="3"><bold>PPI: Likelihood Below the $2.16/day/PPP line</bold></td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>    Less than 65%</bold></td>
+<td align="center">693</td>
+<td align="center">20.4</td>
+<td align="center">334</td>
+<td align="center">16.8</td>
+<td align="center">359</td>
+<td align="center">25.5<xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>    65 up to 75%</bold></td>
+<td align="center">703</td>
+<td align="center">20.7</td>
+<td align="center">351</td>
+<td align="center">17.6</td>
+<td align="center">352</td>
+<td align="center">25.0</td>
+</tr>
+<tr>
+<td align="left"><bold>    75 up to 85%</bold></td>
+<td align="center">1,174</td>
+<td align="center">34.5</td>
+<td align="center">722</td>
+<td align="center">36.2</td>
+<td align="center">452</td>
+<td align="center">32.1</td>
+</tr>
+<tr>
+<td align="left"><bold>    85 up to 99%</bold></td>
+<td align="center">834</td>
+<td align="center">24.5</td>
+<td align="center">587</td>
+<td align="center">29.4</td>
+<td align="center">247</td>
+<td align="center">17.5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>PPI, Progress out of Poverty Index; PPP, Purchasing Power Parity. Pearson chi-square for categorical variables comparing children screened in utero to children screened after birth</p></fn>
+<fn id="t003fn002"><p>*P-value: ≤0.05</p></fn>
+<fn id="t003fn003"><p>*** P-value: ≤0.001.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The logistic regression analyses from the surveillance data indicates that after adjusting for differences between the two groups, infants enrolled in utero have a significantly higher odds of being exclusively breastfed (AOR 1.55 95% CI 1.30, 1.84). Older infants three to five months of age were associated with lower odds of exclusive breastfeeding (AOR 0.17 95% CI 0.11, 0.27) as compared with infants less than three months of age <xref ref-type="table" rid="pone.0195619.t004">Table 4</xref>. The ICC for the AOR model was 0.18, indicating that there was a stronger clustering effect at the Anganwadi level among the monitored participants data as compared with the community-based sample.</p>
+<table-wrap id="pone.0195619.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0195619.t004</object-id>
+<label>Table 4</label> <caption><title>Association between infant enrolled during pregnancy and exclusive breastfeeding for participants in a community-based child nutrition program in informal settlements of Mumbai, India.</title></caption>
+<alternatives>
+<graphic id="pone.0195619.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#EEECE1">Characteristics (N = 3420)</th>
+<th align="center" style="background-color:#EEECE1">Crude Odds Ratio <break/>(95% CI)</th>
+<th align="center" style="background-color:#EEECE1">Adjusted Odds Ratio<xref ref-type="table-fn" rid="t004fn003"><sup>a</sup></xref><break/> (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Enrolled During Pregnancy</bold></td>
+<td align="left">1.69 (1.43–2.00)</td>
+<td align="left">1.55 (1.30–1.84)<xref ref-type="table-fn" rid="t004fn002">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Child Age (3 to 5 months)</bold></td>
+<td align="left">0.15 (0.10–0.23)</td>
+<td align="left">0.17 (0.11–0.27)<xref ref-type="table-fn" rid="t004fn002">***</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Child Gender–Female</bold></td>
+<td align="left">0.87 (0.75–1.03)</td>
+<td align="left">0.89 (0.75–1.05)</td>
+</tr>
+<tr>
+<td align="left"><bold>Maternal Working Status—Not Working</bold></td>
+<td align="left">1.08 (0.71–1.64)</td>
+<td align="left">1.10 (0.72–1.70)</td>
+</tr>
+<tr>
+<td align="left"><bold>Home Ownership</bold></td>
+<td align="left">0.86 (0.73–1.01)</td>
+<td align="left">0.89 (0.75–1.06)</td>
+</tr>
+<tr>
+<td align="left"><bold>PPI: Likelihood Below the $2.16/day/PPP Line</bold></td>
+<td align="left">1.4 (0.85–2.31)</td>
+<td align="left">1.57 (0.92–2.68)</td>
+</tr>
+<tr>
+<td align="left"><bold>Intra-Class Correlation</bold></td>
+<td align="center">Null (0.17)</td>
+<td align="center">0.18</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>PPI, Progress out of Poverty Index; PPP, Purchasing Power Parity. Level of significance for adjusted model</p></fn>
+<fn id="t004fn002"><p>***P-value: ≤0.001.</p></fn>
+<fn id="t004fn003"><p><sup>a</sup>Adjusted Model contains all variables in the table. Sample size falls from 3420 to 3404 due to missing values.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec016" sec-type="conclusions">
+<title>Discussion</title>
+<p>This large-scale child nutrition program was associated with improved wasting levels in urban informal settlements of Mumbai, and among secondary indicators, higher levels of exclusive breastfeeding [<xref ref-type="bibr" rid="pone.0195619.ref034">34</xref>]. This study aimed to explore activities that could have contributed to the improvement in exclusive breastfeeding practices.</p>
+<p>In our sample, a normal weight-for-height status (as compared with wasting) and exclusive breastfeeding were positively associated. A systematic review of 35 studies found that the relationship between breastfeeding promotion and growth was not conclusive [<xref ref-type="bibr" rid="pone.0195619.ref035">35</xref>]. In a similar context, Dhaka, Bangladesh, exclusive breastfeeding on low birthweight babies led to improved weight and length gains [<xref ref-type="bibr" rid="pone.0195619.ref036">36</xref>]. In this study, approximately 23 percent of the infants in the community-based endline sample were born low birthweight and 7 percent had experienced diarrhoea in the previous two weeks (not shown in tables)—exclusive breastfeeding is an available strategy to achieve normal growth in spite of these disadvantages.</p>
+<p>The results of the community-based model identified an inverse association between prelacteal supplementation with exclusive breastfeeding. Evidence gathered by the WHO indicates that use of prelacteal supplements without any medical indication is associated with early termination of breastfeeding [<xref ref-type="bibr" rid="pone.0195619.ref037">37</xref>]. Among Hindu and Muslim families, provision of prelacteal feeds can be a traditional ceremonial practice that includes a range of items such as honey and clarified butter [<xref ref-type="bibr" rid="pone.0195619.ref038">38</xref>]. The community-based endline data indicated that among the mothers who reported giving prelacteal feeds, 63 percent gave milk, 35 percent gave formula, and 27 percent gave honey (not shown in tables). Thus, counselling mothers on infant feeding practices after those first few critical days after birth have already passed is a missed opportunity for child health programs. Identifying women during pregnancy can support mothers and family members in having appropriate information on the risks of providing prelacteal supplementation.</p>
+<p>The community-based model indicates a positive association for the SNEHA nutrition program in improving exclusive breastfeeding practices. Mothers were significantly more likely to report exclusively breastfeeding their infants if they had receiving counselling services from SNEHA or attended a SNEHA group session. Children enrolled in utero in the SNEHA program benefited from receiving counselling services earlier and more frequently. The program surveillance data indicated that infants enrolled in utero received an average of nine (median = eight) home visits from a SNEHA CHW and children enrolled after birth received an average of five (median = four) home visits. The average and median age that a child entered the program if the mother was enrolled post-pregnancy was 2.8 months of age.</p>
+<p>A qualitative assessment of the SNEHA nutrition program found that the key contribution to the overall success of the program was the continuous presence of trusted and informed CHWs [<xref ref-type="bibr" rid="pone.0195619.ref034">34</xref>]. During the home visits, SNEHA CHWs individually responded to mother’s breastfeeding concerns in a timely manner. Approximately 11 percent of mothers reported a problem with breastfeeding at the time of the home visit, with the majority reporting an issue of “low milk supply”. The SNEHA CHW was equipped with specific strategies for dealing with this issue, and trained to provide the reassurance and confidence that the mother could continue to breastfeed exclusively.</p>
+<p>Other studies and systematic reviews also report the importance of breastfeeding counselling in the third trimester to provide education, support intentions for breastfeeding, and build mothers’ confidence to breastfeed [<xref ref-type="bibr" rid="pone.0195619.ref039">39</xref>]—exclusive breastfeeding is affected by both prenatal and postpartum management [<xref ref-type="bibr" rid="pone.0195619.ref040">40</xref>,<xref ref-type="bibr" rid="pone.0195619.ref041">41</xref>]. Similar community-based interventions with vulnerable populations in Dhaka, the United States, Mexico, Burkina Faso, and Uganda found that prenatal and postnatal counselling at home improved exclusive breastfeeding practices [<xref ref-type="bibr" rid="pone.0195619.ref042">42</xref>–<xref ref-type="bibr" rid="pone.0195619.ref045">45</xref>]. Similar to the findings of the SNEHA program, these interventions support the benefits of early and repeated contact from a trusted counsellor. Additionally, the multi-pronged nature of the SNEHA nutrition program, by working with available government infrastructure, organizing community-based group meetings, and providing counselling at home, likely also contributed to the improvement in breastfeeding practices [<xref ref-type="bibr" rid="pone.0195619.ref046">46</xref>,<xref ref-type="bibr" rid="pone.0195619.ref047">47</xref>].</p>
+<sec id="sec017">
+<title>Limitations</title>
+<p>One of the key limitations is the limited number of variables available in the surveillance data to adjust for confounding factors in the multivariable regression analysis. Another limitation is the migratory movement common to urban informal settlements—approximately 13 percent of infants were not born in Mumbai. There may be other differences among the infants under six months of age who migrated to Mumbai during infancy for which the surveillance data analysis has not adjusted due to lack of data.</p>
+<p>The use of a 24 hour/current status recall methodology is known to overestimate exclusive breastfeeding practices [<xref ref-type="bibr" rid="pone.0195619.ref048">48</xref>]. Self-reporting of breastfeeding practices during the home visits may be positively biased; however, this bias would be similar across all mothers in the surveillance data. Finally, given that the study uses cross-sectional data, the models merely indicate association and not causal link between exclusive breastfeeding status and independent variables.</p>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Factors associated with exclusive breastfeeding in urban informal settlements of Mumbai indicate a positive relationship with normal weight-for-height anthropometric status, counselling from a community health worker, and a negative association with giving prelacteal feeds. The program surveillance data provides clear evidence of a positive association with enrolment of children while in utero and exclusive breastfeeding. This study provides more evidence in support of prenatal intervention in child nutrition programs—to the best of our knowledge, this is the only study in the current literature examining how child nutrition programs in urban informal settlements of India can integrate pregnant women to improve exclusive breastfeeding outcomes.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0195619.s001" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.s001" xlink:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<title>Community-based endline dataset.</title>
+<p>(DTA)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0195619.s002" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.s002" xlink:type="simple">
+<label>S2 Dataset</label>
+<caption>
+<title>Nutrition program surveillance data for home visits of infants under six months of age.</title>
+<p>(DTA)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0195619.s003" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.s003" xlink:type="simple">
+<label>S3 Dataset</label>
+<caption>
+<title>2012 Progress out of Poverty scores and likelihoods.</title>
+<p>(DTA)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0195619.s004" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.s004" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Community-based endline survey questions.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0195619.s005" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0195619.s005" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Nutrition program surveillance questions for home visits of infants under six months of age.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank the families and caregivers in Dharavi who made the study possible through their participation in the SNEHA CMAM program. We also thank program implementation funders for their continued support. We are thankful to the SNEHA implementation team including Roselin Arul, Ganesh Balgude, Sandeep Bange, Suchita Bavadekar, Vaijayanti Birwadkar, Anu Bothra, Vanita Choundhe, Vyoma Dalal, Digambar Gaikwad, Sushma Gaikwad, Meenakshi Goel, Varsha Kokate, Ganesh Mane, Shreya Manjarekar, Manashree Mantri, Rohit Misale, Madhuri More, Bhakti Naik, Anita Patil, Pradeep Pawar, Dr. Bharati Shanbaug, Usha Shinde, and Sarika Yadav. From Integrated Child Development Services (ICDS) we thank Bapurao Bhavane (CDPO), Vanita Dethe, Mahendra Gaikwad, Sandhya Pavnikar, Swati Kshemkalyani, Rekha Sonawane, and Bharati Thakur. From Municipal Corporation of Greater Mumbai (MCGM) we thank Dr. Prajakata Amberkar, Dr. Satish Badgire, and Dr. Alka Jadhav. We are thankful to Vishal Deshpande, Arja Huestis, Nadeem Shaikh, and Aishwarya Sodhi for their help in data collection and transcription. Finally, we are thankful to Priya Agrawal, Archana Bagra, Devika Deshmukh, Wasundhara Joshi, David Osrin, Evelet Sequeira, members of the SNEHA Research Group, and the SNEHA trustees.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0195619.ref001"><label>1</label><mixed-citation publication-type="other" xlink:type="simple">International Food Policy Research Institute. Global Nutrition Report 2016: From Promise to Impact: Ending Malnutrition by 2030. Washington, DC.; 2016.</mixed-citation></ref>
+<ref id="pone.0195619.ref002"><label>2</label><mixed-citation publication-type="other" xlink:type="simple">United Nations Children’s Fund (UNICEF). The State of the World’s Children 2016. New York; 2016.</mixed-citation></ref>
+<ref id="pone.0195619.ref003"><label>3</label><mixed-citation publication-type="other" xlink:type="simple">Commissioner C, Road M. Census of India 2011 Provisional Population Totals—India—Data Sheet Child Sex Ratio in Census of India 2011 Provisional Population Totals—India—Data Sheet. Ministry of Home Affairs, India. 2011.</mixed-citation></ref>
+<ref id="pone.0195619.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ezeh</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Oyebode</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Satterthwaite</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ndugwa</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sartori</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>The history, geography, and sociology of slums and the health problems of people who live in slums</article-title>. <source>Lancet</source>. <year>2016</year>;<volume>6736</volume>: <fpage>1</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(16)31650-6" xlink:type="simple">10.1016/S0140-6736(16)31650-6</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0195619.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Victora</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Bahl</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Barros</surname> <given-names>AJD</given-names></name>, <name name-style="western"><surname>França</surname> <given-names>GVA</given-names></name>, <name name-style="western"><surname>Horton</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Krasevec</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Breastfeeding in the 21st century: epidemiology, mechanisms, and lifelong effect</article-title>. <source>Lancet (London, England)</source>. <year>2016</year>;<volume>387</volume>: <fpage>475</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)01024-7" xlink:type="simple">10.1016/S0140-6736(15)01024-7</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0195619.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lamberti</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Fischer Walker</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Noiman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Victora</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Black</surname> <given-names>RE</given-names></name>. <article-title>Breastfeeding and the risk for diarrhea morbidity and mortality</article-title>. <source>BMC Public Health</source>. <year>2011</year>;<volume>11</volume>: <fpage>S15</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-11-S3-S15" xlink:type="simple">10.1186/1471-2458-11-S3-S15</ext-link></comment> <object-id pub-id-type="pmid">21501432</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bhandari</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bahl</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mazumdar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Martines</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Black</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Bhan</surname> <given-names>MK</given-names></name>. <article-title>Effect of community-based promotion of exclusive breastfeeding on diarrhoeal illness and growth: A cluster randomised controlled trial</article-title>. <source>Lancet</source>. <year>2003</year>;<volume>361</volume>: <fpage>1418</fpage>–<lpage>1423</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(03)13134-0" xlink:type="simple">10.1016/S0140-6736(03)13134-0</ext-link></comment> <object-id pub-id-type="pmid">12727395</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref008"><label>8</label><mixed-citation publication-type="other" xlink:type="simple">Johns Hopkins Bloomberg School of Public Health. 2016 Pneumonia &amp; Diarrhea Progress Report: Reaching Goals Through Action and Innovation [Internet]. 2016. Available: <ext-link ext-link-type="uri" xlink:href="https://www.jhsph.edu/research/centers-and-institutes/ivac/resources/IVAC-2016-Pneumonia-Diarrhea-Progress-Report.pdf" xlink:type="simple">https://www.jhsph.edu/research/centers-and-institutes/ivac/resources/IVAC-2016-Pneumonia-Diarrhea-Progress-Report.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0195619.ref009"><label>9</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization; United Nations Children’s Fund (UNICEF), 1000 days A&amp; T. Nurturing the health and wealth of nations: the investment case for breastfeeding [Internet]. 2017. Available: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/nutrition/publications/infantfeeding/global-bf-collective-investmentcase/en/" xlink:type="simple">http://www.who.int/nutrition/publications/infantfeeding/global-bf-collective-investmentcase/en/</ext-link></mixed-citation></ref>
+<ref id="pone.0195619.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gupta</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Dadhich</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Faridi</surname> <given-names>MMA</given-names></name>. <article-title>Breastfeeding and complementary feeding as a public health intervention for child survival in India</article-title>. <source>Indian J Pediatr</source>. <year>2010</year>;<volume>77</volume>: <fpage>413</fpage>–<lpage>418</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12098-010-0049-6" xlink:type="simple">10.1007/s12098-010-0049-6</ext-link></comment> <object-id pub-id-type="pmid">20458639</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Darmstadt</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>Bhutta</surname> <given-names>ZA</given-names></name>, <name name-style="western"><surname>Cousens</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Adam</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>De Bernis</surname> <given-names>L</given-names></name>. <article-title>Evidence-based, cost-effective interventions: How many newborn babies can we save?</article-title> <source>Lancet</source>. <year>2005</year>;<volume>365</volume>: <fpage>977</fpage>–<lpage>988</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(05)71088-6" xlink:type="simple">10.1016/S0140-6736(05)71088-6</ext-link></comment> <object-id pub-id-type="pmid">15767001</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bhutta</surname> <given-names>Z a</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Rizvi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gaff</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Horton</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Maternal and Child Nutrition 2: Evidence-based interventions for improvement of maternal and child nutrition: what can be done and at what cost?</article-title> <source>Lancet</source>. <year>2013</year>;<volume>6736</volume>: <fpage>1</fpage>–<lpage>26</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(13)60996-4" xlink:type="simple">10.1016/S0140-6736(13)60996-4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0195619.ref013"><label>13</label><mixed-citation publication-type="other" xlink:type="simple">International Institute for Population Sciences. National Family Health Survey—4 India Fact Sheet 2015–2016. 2016;</mixed-citation></ref>
+<ref id="pone.0195619.ref014"><label>14</label><mixed-citation publication-type="other" xlink:type="simple">International Institute for Population Sciences. National Family Health Survey—4 Maharashtra State Fact Sheet 2015–2016. 2016;</mixed-citation></ref>
+<ref id="pone.0195619.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sachdev</surname> <given-names>HP</given-names></name>, <name name-style="western"><surname>Mehrotra</surname> <given-names>S</given-names></name>. <article-title>Predictors of exclusive breastfeeding in early infancy: operational implications</article-title>. <source>Indian Pediatr</source>. <year>1995</year>;<volume>32</volume>: <fpage>1287</fpage>–<lpage>1296</lpage>. doi:January 30, 1995 <object-id pub-id-type="pmid">8772886</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chandhiok</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Singh</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Sahu</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Singh</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Pandey</surname> <given-names>A</given-names></name>. <article-title>Changes in exclusive breastfeeding practices and its determinants in India, 1992–2006: analysis of national survey data</article-title>. <source>Int Breastfeed J</source>. <year>2015</year>;<volume>10</volume>: <fpage>34</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13006-015-0059-0" xlink:type="simple">10.1186/s13006-015-0059-0</ext-link></comment> <object-id pub-id-type="pmid">26719758</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tiwari</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mahajan</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Lahariya</surname> <given-names>C</given-names></name>. <article-title>The determinants of exclusive breast feeding in urban slums: A community based study</article-title>. <source>J Trop Pediatr</source>. <year>2009</year>;<volume>55</volume>: <fpage>49</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/tropej/fmn037" xlink:type="simple">10.1093/tropej/fmn037</ext-link></comment> <object-id pub-id-type="pmid">18499736</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Malhotra</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Noheria</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Amir</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Ackerson</surname> <given-names>LK</given-names></name>, <name name-style="western"><surname>Subramanian</surname> <given-names>S V</given-names></name>. <article-title>Determinants of termination of breastfeeding within the first 2 years of life in India: evidence from the National Family Health Survey-2</article-title>. <source>Matern Child Nutr</source>. <year>2008</year>;<volume>4</volume>: <fpage>181</fpage>–<lpage>93</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1740-8709.2007.00130.x" xlink:type="simple">10.1111/j.1740-8709.2007.00130.x</ext-link></comment> <object-id pub-id-type="pmid">18582352</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Patel</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Badhoniya</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Khadse</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Senarath</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Agho</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Dibley</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>Infant and young child feeding indicators and determinants of poor feeding practices in India: Secondary data analysis of National Family Health Survey 2005–06</article-title>. <source>Food Nutr Bull</source>. <year>2010</year>;<volume>31</volume>: <fpage>314</fpage>–<lpage>333</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/156482651003100221" xlink:type="simple">10.1177/156482651003100221</ext-link></comment> <object-id pub-id-type="pmid">20707236</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref020"><label>20</label><mixed-citation publication-type="other" xlink:type="simple">USAID. Community-Based Management of Acute Malnutrition: Technical Guidance Brief [Internet]. 2017. Available: <ext-link ext-link-type="uri" xlink:href="https://www.usaid.gov/sites/default/files/documents/1864/CMAM-technical-guidance-brief-508-revFeb2017.pdf" xlink:type="simple">https://www.usaid.gov/sites/default/files/documents/1864/CMAM-technical-guidance-brief-508-revFeb2017.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0195619.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kerac</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mwangome</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>McGrath</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Haider</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Berkley</surname> <given-names>JA</given-names></name>. <article-title>Management of acute malnutrition in infants aged under 6 months (MAMI): Current issues and future directions in policy and research</article-title>. <source>Food Nutr Bull</source>. <year>2015</year>;<volume>36</volume>: <fpage>S30</fpage>–<lpage>S34</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/15648265150361S105" xlink:type="simple">10.1177/15648265150361S105</ext-link></comment> <object-id pub-id-type="pmid">25993754</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref022"><label>22</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organisation, WHO: Maternal I, Health C. Essential Nutrition Actions- Improving maternal, newborn, infant and young child health and nutrition. Geneva WHO. 2013; 144. doi:NBK258736 [bookaccession]</mixed-citation></ref>
+<ref id="pone.0195619.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Victora</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>de Onis</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hallal</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Blössner</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shrimpton</surname> <given-names>R</given-names></name>. <article-title>Worldwide timing of growth faltering: revisiting implications for interventions</article-title>. <source>Pediatrics</source>. <year>2010</year>;<volume>125</volume>: <fpage>e473</fpage>–<lpage>e480</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1542/peds.2009-1519" xlink:type="simple">10.1542/peds.2009-1519</ext-link></comment> <object-id pub-id-type="pmid">20156903</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leroy</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Menon</surname> <given-names>P</given-names></name>. <article-title>From efficacy to public health impact: a call for research on program delivery and utilization in nutrition</article-title>. <source>J Nutr</source>. <year>2008</year>;<volume>138</volume>: <fpage>628</fpage>–<lpage>629</lpage>. doi:138/3/628 [pii] <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jn/138.3.628" xlink:type="simple">10.1093/jn/138.3.628</ext-link></comment> <object-id pub-id-type="pmid">18287377</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pérez-Escamilla</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Curry</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Minhas</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bradley</surname> <given-names>E</given-names></name>. <article-title>Scaling up of breastfeeding promotion programs in low- and middle-income countries: the “breastfeeding gear” model</article-title>. <source>Adv Nutr</source>. <year>2012</year>;<volume>3</volume>: <fpage>790</fpage>–<lpage>800</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3945/an.112.002873" xlink:type="simple">10.3945/an.112.002873</ext-link></comment> <object-id pub-id-type="pmid">23153733</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Heikens</surname> <given-names>GT</given-names></name>, <name name-style="western"><surname>Amadi</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Manary</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rollins</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Tomkins</surname> <given-names>A</given-names></name>. <article-title>Nutrition interventions need improved operational capacity</article-title>. <source>Lancet</source>. <year>2008</year>;<volume>371</volume>: <fpage>181</fpage>–<lpage>182</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(07)61691-2" xlink:type="simple">10.1016/S0140-6736(07)61691-2</ext-link></comment> <object-id pub-id-type="pmid">18207567</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bryce</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Coitinho</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Darnton-Hill</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Pelletier</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Pinstrup-Andersen</surname> <given-names>P</given-names></name>. <article-title>Maternal and child undernutrition: effective action at national level</article-title>. <source>The Lancet</source>. <year>2008</year>. pp. <fpage>510</fpage>–<lpage>526</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(08)70138-4" xlink:type="simple">10.1016/S1470-2045(08)70138-4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0195619.ref028"><label>28</label><mixed-citation publication-type="other" xlink:type="simple">UN-Habitat. World Cities Report 2016—Urbanization and Development: Emerging Futures. International Journal. 2016. 10.1016/S0264-2751(03)00010-6</mixed-citation></ref>
+<ref id="pone.0195619.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dyson</surname> <given-names>P</given-names></name>. <article-title>Slum Tourism: Representing and Interpreting “Reality” in Dharavi, Mumbai</article-title>. <source>Tour Geogr</source>. <year>2012</year>;<volume>14</volume>: <fpage>254</fpage>–<lpage>274</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/14616688.2011.609900" xlink:type="simple">10.1080/14616688.2011.609900</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0195619.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Milligan</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Njie</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>S</given-names></name>. <article-title>Comparison of two cluster sampling methods for health surveys in developing countries</article-title>. <source>Int J Epidemiol</source>. <year>2004</year>;<volume>33</volume>: <fpage>469</fpage>–<lpage>476</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dyh096" xlink:type="simple">10.1093/ije/dyh096</ext-link></comment> <object-id pub-id-type="pmid">15020569</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Setegn</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Belachew</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Gerbaba</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Deribe</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Deribew</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Biadgilign</surname> <given-names>S</given-names></name>. <article-title>Factors associated with exclusive breastfeeding practices among mothers in Goba district, south east Ethiopia: a cross-sectional study</article-title>. <source>Int Breastfeed J</source>. <year>2012</year>;<volume>7</volume>: <fpage>17</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1746-4358-7-17" xlink:type="simple">10.1186/1746-4358-7-17</ext-link></comment> <object-id pub-id-type="pmid">23186223</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hunegnaw</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Gezie</surname> <given-names>LD</given-names></name>, <name name-style="western"><surname>Teferra</surname> <given-names>AS</given-names></name>. <article-title>Exclusive breastfeeding and associated factors among mothers in Gozamin district, northwest Ethiopia: a community based cross-sectional study</article-title>. <source>Int Breastfeed J</source>. <year>2017</year>;<volume>12</volume>: <fpage>30</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13006-017-0121-1" xlink:type="simple">10.1186/s13006-017-0121-1</ext-link></comment> <object-id pub-id-type="pmid">28702071</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pagel</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Prost</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lewycka</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Colbourn</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Mahapatra</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Intracluster correlation coefficients and coefficients of variation for perinatal outcomes from five cluster-randomised controlled trials in low and middle-income countries: Results and methodological implications</article-title>. <source>Trials</source>. <year>2011</year>;<volume>12</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1745-6215-12-151" xlink:type="simple">10.1186/1745-6215-12-151</ext-link></comment> <object-id pub-id-type="pmid">21672223</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>More</surname> <given-names>NS</given-names></name>, <name name-style="western"><surname>Waingankar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ramani</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chanani</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>D’Souza</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Pantvaidya</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Community-Based Management of Acute Malnutrition to Reduce Wasting in Urban Informal Settlements of Mumbai, India: A Mixed-Methods Evaluation</article-title>. <source>Glob Heal Sci Pract</source>. <year>2018</year>; Forthcoming.</mixed-citation></ref>
+<ref id="pone.0195619.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Giugliani</surname> <given-names>ERJ</given-names></name>, <name name-style="western"><surname>Horta</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>de Mola</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Lisboa</surname> <given-names>BO</given-names></name>, <name name-style="western"><surname>Victora</surname> <given-names>CG</given-names></name>. <article-title>Effect of breastfeeding promotion interventions on child growth: A systematic review and meta-analysis</article-title>. <source>Acta Paediatr</source>. <year>2015</year>;<volume>104</volume>: <fpage>20</fpage>–<lpage>29</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/apa.13160" xlink:type="simple">10.1111/apa.13160</ext-link></comment> <object-id pub-id-type="pmid">26361071</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thakur</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Roy</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Paul</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Khanam</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Khatun</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Sarker</surname> <given-names>D</given-names></name>. <article-title>Effect of nutrition education on exclusive breastfeeding for nutritional outcome of low birth weight babies</article-title>. <source>Eur J Clin Nutr</source>. <year>2012</year>;<volume>66</volume>: <fpage>376</fpage>–<lpage>381</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ejcn.2011.182" xlink:type="simple">10.1038/ejcn.2011.182</ext-link></comment> <object-id pub-id-type="pmid">22085870</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>World Health Organization</collab>. <article-title>Evidence for the Ten Steps to Successful Breastfeeding</article-title>. <source>English</source>. <year>1998</year>;<volume>23</volume>: <fpage>1</fpage>–<lpage>118</lpage>. doi:9241591544</mixed-citation></ref>
+<ref id="pone.0195619.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McKenna</surname> <given-names>Kathleen M</given-names></name> and <name name-style="western"><surname>Shankar</surname> <given-names>RT</given-names></name>. <article-title>The practice of prelacteal feeding to newborns among Hindu and Muslim families</article-title>. <source>J Midwifery Women’s Heal</source>. <year>2009</year>;<volume>54</volume>: <fpage>78</fpage>–<lpage>81</lpage>.</mixed-citation></ref>
+<ref id="pone.0195619.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rollins</surname> <given-names>NC</given-names></name>, <name name-style="western"><surname>Bhandari</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Hajeebhoy</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Horton</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lutter</surname> <given-names>CK</given-names></name>, <name name-style="western"><surname>Martines</surname> <given-names>JC</given-names></name>, <etal>et al</etal>. <article-title>Why invest, and what it will take to improve breastfeeding practices?</article-title> <source>Lancet</source>. <year>2016</year>;<volume>387</volume>: <fpage>491</fpage>–<lpage>504</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)01044-2" xlink:type="simple">10.1016/S0140-6736(15)01044-2</ext-link></comment> <object-id pub-id-type="pmid">26869576</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kronborg</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Væth</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Olsen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Iversen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Harder</surname> <given-names>I</given-names></name>. <article-title>Effect of early postnatal breastfeeding support: A cluster-randomized community based trial</article-title>. <source>Acta Paediatr Int J Paediatr</source>. <year>2007</year>;<volume>96</volume>: <fpage>1064</fpage>–<lpage>1070</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1651-2227.2007.00341.x" xlink:type="simple">10.1111/j.1651-2227.2007.00341.x</ext-link></comment> <object-id pub-id-type="pmid">17524018</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Imdad</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Yakoob</surname> <given-names>MY</given-names></name>, <name name-style="western"><surname>Bhutta</surname> <given-names>ZA</given-names></name>. <article-title>Effect of breastfeeding promotion interventions on breastfeeding rates, with special focus on developing countries</article-title>. <source>BMC Public Health</source>. <year>2011</year>;<volume>11</volume>: <fpage>S24</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-11-S3-S24" xlink:type="simple">10.1186/1471-2458-11-S3-S24</ext-link></comment> <object-id pub-id-type="pmid">21501442</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haider</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ashworth</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kabir</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Huttly</surname> <given-names>SRA</given-names></name>. <article-title>Effect of community-based peer counsellors on exclusive breastfeeding practices in Dhaka, Bangladesh: A randomised controlled trial</article-title>. <source>Lancet</source>. <year>2000</year>;<volume>356</volume>: <fpage>1643</fpage>–<lpage>1647</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(00)03159-7" xlink:type="simple">10.1016/S0140-6736(00)03159-7</ext-link></comment> <object-id pub-id-type="pmid">11089824</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Damio</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chapman</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Pérez-Escamilla</surname> <given-names>R</given-names></name>. <article-title>A randomized trial assessing the efficacy of peer counseling on exclusive breastfeeding in a predominantly Latina low-income community</article-title>. <source>Arch Pediatr Adolesc Med</source>. <year>2005</year>;<volume>159</volume>: <fpage>836</fpage>–<lpage>841</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/archpedi.159.9.836" xlink:type="simple">10.1001/archpedi.159.9.836</ext-link></comment> <object-id pub-id-type="pmid">16143742</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morrow</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Guerrero</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Shults</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Calva</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Lutter</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bravo</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Efficacy of home-based peer counselling to promote exclusive breastfeeding: A randomised controlled trial</article-title>. <source>Lancet</source>. <year>1999</year>;<volume>353</volume>: <fpage>1226</fpage>–<lpage>1231</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(98)08037-4" xlink:type="simple">10.1016/S0140-6736(98)08037-4</ext-link></comment> <object-id pub-id-type="pmid">10217083</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tylleskär</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Meda</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Engebretsen</surname> <given-names>IMS</given-names></name>, <name name-style="western"><surname>Chopra</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Diallo</surname> <given-names>AH</given-names></name>, <etal>et al</etal>. <article-title>Exclusive breastfeeding promotion by peer counsellors in sub-Saharan Africa (PROMISE-EBF): A cluster-randomised trial</article-title>. <source>Lancet</source>. <year>2011</year>;<volume>378</volume>: <fpage>420</fpage>–<lpage>427</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(11)60738-1" xlink:type="simple">10.1016/S0140-6736(11)60738-1</ext-link></comment> <object-id pub-id-type="pmid">21752462</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sinha</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Chowdhury</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sankar</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Martines</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Taneja</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mazumder</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Interventions to improve breastfeeding outcomes: A systematic review and meta-analysis</article-title>. <source>Acta Paediatr</source>. <year>2015</year>;<volume>104</volume>: <fpage>114</fpage>–<lpage>135</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/apa.13127" xlink:type="simple">10.1111/apa.13127</ext-link></comment> <object-id pub-id-type="pmid">26183031</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haroon</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Salam</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Imdad</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bhutta</surname> <given-names>Z</given-names></name>. <article-title>Breastfeeding promotion interventions and breastfeeding practices: A systematic review</article-title>. <source>BMC Public Health</source>. <year>2013</year>;<volume>13</volume>: <fpage>S20</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-13-S3-S20" xlink:type="simple">10.1186/1471-2458-13-S3-S20</ext-link></comment> <object-id pub-id-type="pmid">24564836</object-id></mixed-citation></ref>
+<ref id="pone.0195619.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aarts</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kylberg</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Hörnell</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hofvander</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Gebre-Medhin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Greiner</surname> <given-names>T</given-names></name>. <article-title>How exclusive is exclusive breastfeeding? A comparison of data since birth with current status data</article-title>. <source>Int J Epidemiol</source>. <year>2000</year>;<volume>29</volume>: <fpage>1041</fpage>–<lpage>1046</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/29.6.1041" xlink:type="simple">10.1093/ije/29.6.1041</ext-link></comment> <object-id pub-id-type="pmid">11101545</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>
